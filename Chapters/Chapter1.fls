@@ -1,0 +1,4 @@
+PWD C:\Users\herda\Desktop\MemoriaTrabajo\Chapters
+INPUT C:\Users\herda\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT Chapter1.tex
+OUTPUT Chapter1.log

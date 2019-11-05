@@ -17,52 +17,129 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
-  \entry{IEEE:citation}{book}{}
-    \name{author}{1}{}{%
-      {{hash=I}{%
-         family={IEEE},
-         familyi={I\bibinitperiod},
+  \entry{Hribik2004DigitalPA}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=HJ}{%
+         family={Hribik},
+         familyi={H\bibinitperiod},
+         given={J{\'a}n},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Fuchs},
+         familyi={F\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hruskovic},
+         familyi={H\bibinitperiod},
+         given={Miloslav},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mich{\'a}lek},
+         familyi={M\bibinitperiod},
+         given={Rastislav},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Lojko},
+         familyi={L\bibinitperiod},
+         given={Branislav},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Sut},
+         familyi={S\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {IEEE Publications}%
-    }
-    \strng{namehash}{I1}
-    \strng{fullhash}{I1}
+    \strng{namehash}{HJ+1}
+    \strng{fullhash}{HJFPHMMRLBSF1}
     \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Digital Power and Energy Measurement}
+    \field{year}{2004}
+  \endentry
+
+  \entry{761852}{article}{}
+    \keyw{cable ampacity;dc power system studies;ground mat studies;harmonic
+  analysis;load flow studies;motor-starting studies;power system analysis;power
+  system modeling;power system studies;protective coordination
+  studies;reliability studies;short-circuit studies}
     \field{labeltitlesource}{title}
     \field{sortinit}{I}
     \field{sortinithash}{I}
-    \field{edition}{1}
-    \field{title}{IEEE Citation Reference}
-    \verb{url}
-    \verb http://www.ieee.org/documents/ieeecitationref.pdf
+    \verb{doi}
+    \verb 10.1109/IEEESTD.1998.88568
     \endverb
-    \field{year}{2016}
-    \field{urlday}{26}
-    \field{urlmonth}{09}
-    \field{urlyear}{2016}
+    \field{pages}{1\bibrangedash 488}
+    \field{title}{IEEE Recommended Practice for Industrial and Commercial Power
+  Systems Analysis (Brown Book)}
+    \field{journaltitle}{IEEE Std 399-1997}
+    \field{year}{1998}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{CIAA}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=P}{%
-         family={{Proyecto CIAA}},
-         familyi={P\bibinitperiod},
+  \entry{articleDM}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MC}{%
+         family={Micheal},
+         familyi={M\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=OO}{%
+         family={Ogungbenro},
+         familyi={O\bibinitperiod},
+         given={O.A.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Okafor},
+         familyi={O\bibinitperiod},
+         given={Kennedy},
+         giveni={K\bibinitperiod},
       }}%
     }
-    \strng{namehash}{P1}
-    \strng{fullhash}{P1}
+    \strng{namehash}{MCOOOK1}
+    \strng{fullhash}{MCOOOK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{note}{Disponible: 2016-06-25}
-    \field{title}{Computadora Industrial Abierta Argentina}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{189\bibrangedash 192}
+    \field{title}{Digital Metering System: A Better Alternative for
+  Electromechanical Energy Meter in Nigeria}
+    \field{volume}{3}
+    \field{journaltitle}{International Journal of Academic Research}
+    \field{month}{01}
+    \field{year}{2011}
+  \endentry
+
+  \entry{NIDataAdquisition}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{NationalInstrument}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{note}{Disponible: 2019-11-04}
+    \field{title}{¿Qué es Adquisición de Datos?}
     \verb{url}
-    \verb http://proyecto-ciaa.com.ar/devwiki/doku.php?id=start
+    \verb https://www.ni.com/data-acquisition/what-is/esa/
     \endverb
-    \field{year}{2014}
+    \field{year}{2019}
   \endentry
 \enddatalist
 \endinput
