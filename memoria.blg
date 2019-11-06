@@ -3,7 +3,4 @@ The style file: biblatex.bst
 A level-1 auxiliary file: Chapters/Chapter1.aux
 Database file #1: memoria-blx.bib
 Database file #2: references.bib
-Warning--I didn't find a database entry for "MEcitation"
-Warning--I didn't find a database entry for "ADCcitation"
 Biblatex version: 3.11
-(There were 2 warnings)

@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
-  \entry{Hribik2004DigitalPA}{inproceedings}{}
+  \entry{Hribik2004DigitalPA}{misc}{}
     \name{author}{6}{}{%
       {{hash=HJ}{%
          family={Hribik},
@@ -66,7 +66,7 @@
     \field{year}{2004}
   \endentry
 
-  \entry{761852}{article}{}
+  \entry{761852}{misc}{}
     \keyw{cable ampacity;dc power system studies;ground mat studies;harmonic
   analysis;load flow studies;motor-starting studies;power system analysis;power
   system modeling;power system studies;protective coordination
@@ -85,7 +85,7 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{articleDM}{article}{}
+  \entry{articleDM}{misc}{}
     \name{author}{3}{}{%
       {{hash=MC}{%
          family={Micheal},
