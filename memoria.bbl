@@ -16,8 +16,78 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}
-  \entry{Hribik2004DigitalPA}{misc}{}
+\datalist[entry]{none/global//global/global}
+  \entry{NIDataAdquisition}{article}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{NationalInstrument}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Disponible: 2019-11-04}
+    \field{title}{¿Qué es Adquisición de Datos?}
+    \verb{url}
+    \verb https://www.ni.com/data-acquisition/what-is/esa/
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{761852}{article}{}
+    \keyw{cable ampacity;dc power system studies;ground mat studies;harmonic
+  analysis;load flow studies;motor-starting studies;power system analysis;power
+  system modeling;power system studies;protective coordination
+  studies;reliability studies;short-circuit studies}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/IEEESTD.1998.88568
+    \endverb
+    \field{pages}{1\bibrangedash 488}
+    \field{title}{IEEE Recommended Practice for Industrial and Commercial Power
+  Systems Analysis (Brown Book)}
+    \field{journaltitle}{IEEE Std 399-1997}
+    \field{year}{1998}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{articleDM}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MC}{%
+         family={Micheal},
+         familyi={M\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=OO}{%
+         family={Ogungbenro},
+         familyi={O\bibinitperiod},
+         given={O.A.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Okafor},
+         familyi={O\bibinitperiod},
+         given={Kennedy},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MCOOOK1}
+    \strng{fullhash}{MCOOOK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{189\bibrangedash 192}
+    \field{title}{Digital Metering System: A Better Alternative for
+  Electromechanical Energy Meter in Nigeria}
+    \field{volume}{3}
+    \field{journaltitle}{International Journal of Academic Research}
+    \field{month}{01}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Hribik2004DigitalPA}{article}{}
     \name{author}{6}{}{%
       {{hash=HJ}{%
          family={Hribik},
@@ -56,90 +126,31 @@
          giveni={F\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HJ+1}
+    \strng{namehash}{HJFPHM+1}
     \strng{fullhash}{HJFPHMMRLBSF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
     \field{title}{Digital Power and Energy Measurement}
     \field{year}{2004}
   \endentry
 
-  \entry{761852}{misc}{}
-    \keyw{cable ampacity;dc power system studies;ground mat studies;harmonic
-  analysis;load flow studies;motor-starting studies;power system analysis;power
-  system modeling;power system studies;protective coordination
-  studies;reliability studies;short-circuit studies}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{I}
-    \field{sortinithash}{I}
-    \verb{doi}
-    \verb 10.1109/IEEESTD.1998.88568
-    \endverb
-    \field{pages}{1\bibrangedash 488}
-    \field{title}{IEEE Recommended Practice for Industrial and Commercial Power
-  Systems Analysis (Brown Book)}
-    \field{journaltitle}{IEEE Std 399-1997}
-    \field{year}{1998}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{articleDM}{misc}{}
-    \name{author}{3}{}{%
-      {{hash=MC}{%
-         family={Micheal},
-         familyi={M\bibinitperiod},
-         given={C.},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=OO}{%
-         family={Ogungbenro},
-         familyi={O\bibinitperiod},
-         given={O.A.},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=OK}{%
-         family={Okafor},
-         familyi={O\bibinitperiod},
-         given={Kennedy},
-         giveni={K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MCOOOK1}
-    \strng{fullhash}{MCOOOK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{pages}{189\bibrangedash 192}
-    \field{title}{Digital Metering System: A Better Alternative for
-  Electromechanical Energy Meter in Nigeria}
-    \field{volume}{3}
-    \field{journaltitle}{International Journal of Academic Research}
-    \field{month}{01}
-    \field{year}{2011}
-  \endentry
-
-  \entry{NIDataAdquisition}{misc}{}
+  \entry{CIAA}{misc}{}
     \name{author}{1}{}{%
-      {{hash=N}{%
-         family={{NationalInstrument}},
-         familyi={N\bibinitperiod},
+      {{hash=P}{%
+         family={{Proyecto CIAA}},
+         familyi={P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{N1}
-    \strng{fullhash}{N1}
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{note}{Disponible: 2019-11-04}
-    \field{title}{¿Qué es Adquisición de Datos?}
+    \field{note}{Disponible: 2016-06-25}
+    \field{title}{Computadora Industrial Abierta Argentina}
     \verb{url}
-    \verb https://www.ni.com/data-acquisition/what-is/esa/
+    \verb http://proyecto-ciaa.com.ar/devwiki/doku.php?id=start
     \endverb
-    \field{year}{2019}
+    \field{year}{2014}
   \endentry
 \enddatalist
 \endinput

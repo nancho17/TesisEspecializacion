@@ -45,7 +45,7 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage{palatino} % Use the Palatino font by default
 %,style=authoryear
-\usepackage[backend=bibtex,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage[backend=bibtex,style=ieee,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 
 \addbibresource{references.bib} % The filename of the bibliography
 
@@ -232,7 +232,7 @@ No vale poner anti-agradecimientos (este trabajo fue posible a pesar de...)
 % Descomentar las líneas a medida que se escriben los capítulos
 
 \include{Chapters/Chapter1}
-%\include{Chapters/Chapter2} 
+\include{Chapters/Chapter2} 
 %\include{Chapters/Chapter3}
 %\include{Chapters/Chapter4} 
 %\include{Chapters/Chapter5} 
@@ -256,9 +256,12 @@ No vale poner anti-agradecimientos (este trabajo fue posible a pesar de...)
 
 \Urlmuskip=0mu plus 1mu\relax
 \raggedright
+
+%\bibliographystyle{stylename}
+%\bibliography{references.bib}
 \printbibliography[heading=bibintoc]
 %\assignrefcontextentries[]{*}
-
+%\bibliographystyle{plain}
 %----------------------------------------------------------------------------------------
 
 \end{document}  
