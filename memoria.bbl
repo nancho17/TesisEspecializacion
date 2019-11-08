@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{NIDataAdquisition}{article}{}
+  \entry{NIDataAdquisition}{misc}{}
     \name{author}{1}{}{%
       {{hash=N}{%
          family={{NationalInstrument}},
@@ -132,6 +132,23 @@
     \field{labeltitlesource}{title}
     \field{title}{Digital Power and Energy Measurement}
     \field{year}{2004}
+  \endentry
+
+  \entry{book:28601}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PS}{%
+         family={P.},
+         familyi={P\bibinitperiod},
+         given={Sangil},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PS1}
+    \strng{fullhash}{PS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Principles of Sigma Delta Conversion for Analog to Digital
+  Converters}
   \endentry
 
   \entry{CIAA}{misc}{}

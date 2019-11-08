@@ -30,22 +30,47 @@ Las mediciones eléctricas son los métodos, dispositivos y cálculos usados par
 
 La adquisición de datos o adquisición de señales consiste en la toma de muestras del mundo real (sistema analógico) para generar datos que puedan ser manipulados por un ordenador u otros dispositivos electrónicos (sistema digital). Se requiere una etapa de acondicionamiento, que adecua la señal a niveles compatibles con el elemento que hace la transformación a señal digital.\cite{NIDataAdquisition}
 
-Un convertidor de señal analógica a digital es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificándose en muchos casos en un código binario en particular. Donde un código es la representación unívoca de los elementos, en este caso, cada valor numérico binario hace corresponder a un solo valor de tensión o corriente.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=140mm,keepaspectratio]{Figures/DigitalDAQ.jpg}
+	\caption{Ejemplo de digitalización de una señal.}
+	\label{fig:texmaker}
+\end{figure}
 
+Un convertidor de señal analógica a digital(ADC) es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificándose en muchos casos en un código binario en particular. 
 %\citep{ADCcitation}
-
 
 \subsection{Sistemas electrónicos para mediciones eléctricas}
 
-Las aplicaciones mas tempranas de computadores digitales a problemas de sistemas de potencia datan alrededor de 1940. La mayoría de las aplicaciones tempranas estaban limitadas en alcance debido a la pequeña capacidad de las tarjetas de las calculadoras usadas en ese periodo. Computadoras digitales de larga escalas estuvieron disponibles a mediados de 1950, y el éxito inicial de programas de flujo de carga llevaron al desarrollo de programas para cálculos de corto circuitos y estabilidad.\citep{761852}
+Las aplicaciones mas tempranas de computadores digitales a problemas de sistemas de potencia datan alrededor de 1940. La mayoría de las aplicaciones tempranas estaban limitadas en alcance debido a la pequeña capacidad de las tarjetas calculadoras usadas en ese periodo. Computadoras digitales de larga escalas estuvieron disponibles a mediados de 1950, y el éxito inicial de programas de flujo de carga llevaron al desarrollo de programas para cálculos de corto circuitos y estabilidad.\citep{761852}
 
-Hoy en día la computadora digital es una herramienta indispensable en el planeamiento de sistemas de potencia, en el que es necesario predecir el crecimiento futuro y simular operaciones día  a día sobre períodos de 20 años o más.\cite{761852}
+Los medidores electrónicos digitalizan las variables medidas vía un ADC sigma delta  de alta resolución. La técnica de diseño de estos medidores digitales es influenciada por tres grandes factores: el costo , eficiencia y tamaño. Mientras que el costo esta influenciado por la capacidad de compra del cliente, la eficiencia y el tamaño deben cumplir estrictamente con los estándares.\cite{articleDM}
 
-Los medidores electrónicos miden energía usando varios componentes altamente integrados o un circuito integrado especifico. Estos dispositivos digitalizan el voltaje instantáneo y la corriente vía un ADC sigma delta  de alta resolución. La técnica de diseño de estos medidores digitales es influenciada por tres grandes factores tales son el costo deseado, eficiencia y tamaño total. Mientras que el costo esta influenciado por la capacidad de compra del cliente, la eficiencia y el tamaño deben cumplir estrictamente con los estándares.\cite{articleDM}
-
-Las mediciones digitales de potencia y energía eléctrica están basadas en el muestreo y digitalización de valores instantáneos de voltaje y corriente en intervalos regulares de tiempo. Tal medición de potencia y energía se encuentra influenciada no solo por las inexactitudes del circuito analógico pero sino también de las inexactitudes del proceso de muestreo en si mismo.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=75mm,keepaspectratio]{Figures/3931_1.png}
+	\caption{Medidor electrónico comercial.}
+	\label{fig:texmaker}
+\end{figure}
 
 La exactitud del medidor eléctrico digital depende en la exactitud del circuito analógico de entrada analógica, la exactitud del conversor analógico-digital y la exactitud de los cálculos digitales.\citep{Hribik2004DigitalPA}
+
+Los convertidores analógicos-digitales basados en la modulación sigma - delta son económicamente viables para convertidores de alta resolución (mayores que 12bits), estos son  usados en el circuito integrado de procesadores de señales.
+
+La modulación sigma-delta fue introducida en 1962 y no ganaría importancia hasta recientes desarrollos en tecnologías VLSI(integración a escala muy grande) que proveían fines prácticos para implementar complejos circuitos de procesamiento de señales.
+
+ El incremento en el uso de técnicas en aplicaciones de audio y comunicación también contribuyo al reciente interés en ADC rentables de alta precision. Un requerimiento para interfaces analógicas a digitales es la compatibilidad con tecnologías de VLSI, de modo de proveer integración monolítica en  una unica oblea. Desde que los ADC de sigma delta estan basados en tecnicas de filtro digital casi el 90\% de la oblea es usada para la implementacion de circuitos digitales que mejoran la compatibilidad.\citep{book:28601}
+
+
+
+
+
+
+
+
+
+
+%%
 
 \section{Motivación}
 

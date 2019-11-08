@@ -332,9 +332,26 @@ OUTPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter1.tex
 INPUT Chapters\Chapter1.tex
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
+INPUT Figures\DigitalDAQ.jpg
+INPUT .\Figures\DigitalDAQ.jpg
+INPUT .\Figures\DigitalDAQ.jpg
+INPUT .\Figures\DigitalDAQ.jpg
+INPUT .\Figures\DigitalDAQ.jpg
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplrc8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT Figures\3931_1.png
+INPUT .\Figures\3931_1.png
+INPUT .\Figures\3931_1.png
+INPUT .\Figures\3931_1.png
+INPUT .\Figures\3931_1.png
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplro8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplro8r.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT Figures\pzeem004.jpg
@@ -342,13 +359,6 @@ INPUT .\Figures\pzeem004.jpg
 INPUT .\Figures\pzeem004.jpg
 INPUT .\Figures\pzeem004.jpg
 INPUT .\Figures\pzeem004.jpg
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplro8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplro8r.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplrc8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
 OUTPUT Chapters\Chapter2.aux
 INPUT Chapters\Chapter2.tex
 INPUT Chapters\Chapter2.tex
