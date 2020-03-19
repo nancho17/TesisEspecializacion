@@ -22,7 +22,7 @@
 %----------------------------------------------------------------------------------------
 \section{Descripción general del trabajo y conceptos claves}
 
-El trabajo desarrollado consiste en un sistema adquisidor de datos con los sensores necesarios para una medición de potencia eléctrica, en otras palabras un medidor digital de energía eléctrica.
+El trabajo desarrollado consiste en un sistema adquisidor de datos con los sensores necesarios para una medición de potencia eléctrica, en otras palabras un medidor digital de energía eléctrica. El trabajo fue desarrollado para una empresa privada localizada en Argentina.
 
 Las mediciones eléctricas son los métodos, dispositivos y cálculos usados para medir cantidades eléctricas. La medición de cantidades eléctricas puede hacerse al medir parámetros eléctricos de un sistema. Usando transductores, propiedades físicas como la temperatura, presión, flujo, fuerza, y muchas otras pueden convertirse en señales eléctricas, que pueden ser convenientemente registradas y medidas. 
 
@@ -37,7 +37,7 @@ La adquisición de datos o adquisición de señales consiste en la toma de muest
 	\label{fig:texmaker}
 \end{figure}
 
-Un convertidor de señal analógica a digital(ADC) es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificándose en muchos casos en un código binario en particular. 
+Un convertidor de señal analógica a digital (ADC) es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificándose en muchos casos en un código binario en particular. 
 %\citep{ADCcitation}
 
 \subsection{Sistemas electrónicos para mediciones eléctricas}
@@ -48,43 +48,69 @@ Los medidores electrónicos digitalizan las variables medidas vía un ADC sigma 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=80mm,keepaspectratio]{Figures/3931_1.png}
+	\includegraphics[width=55mm,keepaspectratio]{Figures/3931_1.png}
 	\caption{Medidor electrónico comercial.}
 	\label{fig:texmaker}
 \end{figure}
 
 La exactitud del medidor eléctrico digital depende en la exactitud del circuito analógico de entrada analógica, la exactitud del conversor analógico-digital y la exactitud de los cálculos digitales.\citep{Hribik2004DigitalPA}
 
-Los convertidores analógicos-digitales basados en la modulación sigma - delta son económicamente viables para convertidores de alta resolución (mayores que 12bits), estos son  usados en el circuito integrado de procesadores de señales.
+Los convertidores analógicos-digitales basados en la modulación sigma - delta son económicamente viables para convertidores de alta resolución (mayores que 12bits), por lo que son  usados en el circuito integrado de procesadores de señales.
 
-La modulación sigma-delta fue introducida en 1962 y no ganaría importancia hasta recientes desarrollos en tecnologías VLSI(integración a escala muy grande) que proveían fines prácticos para implementar complejos circuitos de procesamiento de señales.
-
- El incremento en el uso de técnicas en aplicaciones de audio y comunicación también contribuyo al reciente interés en ADC rentables de alta precision. Un requerimiento para interfaces analógicas a digitales es la compatibilidad con tecnologías de VLSI, de modo de proveer integración monolítica en  una unica oblea. Desde que los ADC de sigma delta estan basados en tecnicas de filtro digital casi el 90\% de la oblea es usada para la implementacion de circuitos digitales que mejoran la compatibilidad.\citep{book:28601}
-
-
-
-
-
-
-
-
+La modulación sigma-delta fue introducida en 1962 y no ganaría importancia hasta recientes desarrollos en tecnologías VLSI(integración a escala muy grande) que proveían fines prácticos para implementar complejos circuitos de procesamiento de señales.\citep{book:28601}
 
 
 %%
 
 \section{Motivación}
 
-En la actualidad se pueden encontrar en el mercado internacional múltiples módulos electrónicos con puertos de comunicación para la medición de energía eléctrica como así también medidores digitales de energía de diferentes marcas para diferentes entornos, los que nos permite pensar que un dispositivo similar podría ser fabricado en la Argentina.
+En la actualidad se pueden encontrar en el mercado internacional múltiples módulos electrónicos, de bajo costo, con puertos de comunicación para la medición de energía eléctrica como así también medidores digitales de energía de diferentes marcas para diferentes entornos, los que nos permite pensar que un dispositivo similar podría ser fabricado en la Argentina.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=80mm,keepaspectratio]{Figures/pzeem004.jpg}
-	\caption{Modulo de medicion de energia electrica con comunicacion serie universal.}
-	\label{fig:texmaker}
+	\caption{Modulo de medición de energía eléctrica con comunicación serie universal.}
+	\label{fig:pzem04}
 \end{figure}
+
+Los módulos de medición pueden servir como un monitoreo de primera instancia pudiendo ser un método preventivo de fallas, dado que los parámetros de consumo dan una idea de estado de las máquinas.  El módulo de la figura \ref{fig:pzem04}  anterior fue usado en un trabajo de grado para un local comercial cuyo resultados pueden verse en la figura \ref{fig:graficoW}.  Estas gráficas sirvieron para realizar observaciones como el encendido de un motor trifásico y mal-funcionamiento de equipos de refrigeración.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=80mm,keepaspectratio]{Figures/potencia_ej.png}
+	\caption{Gráfico de medición de potencia mostrando el encendido de un frigorífico.}
+	\label{fig:graficoW}
+\end{figure}
+
+Estos módulos se consiguen en el mercado internacional de modo que hay que importarlos lo que presenta una barrera para una herramienta de monitoreo simple. 
+
+Desde el punto de vista de la empresa privada  el trabajo se planteó ante la necesidad de cuantificar consumos energéticos de procesos industriales para supervisar la alimentación de equipos de control o de medición. También como una alternativa a un producto anterior que solo media consumos de corriente continua. 
+
+Por lo que la necesidad de hacer uso de la herramienta y la capacidad de realizar la electrónica de manera local  fueron los impulsores del trabajo realizado.
+
+\section{Objetivos y alcance}
+
+\subsection{Objetivos del desarrollo}
+El objetivo del proyecto es el desarrollo de un dispositivo de medición, basado en un un micro-controlador de la familia MSP430 en conjunto con un ADC SOC(system on chip). Se pretende lograr un dispositivo comercial similar a aquellos elaborados anteriormente por la empresa privada, por lo que las dimensiones del PCB (printed circuit board) deberán ajustarse a los utilizados por las carcasas estándar que utiliza la empresa, como puede verse en la figura \ref{fig:disp_emp}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=80mm,keepaspectratio]{Figures/dispositivo_empresa.png}
+	\caption{Ejemplo de dispositivo fabricado por la empresa privada.}
+	\label{fig:disp_emp}
+\end{figure}
+
+Además se espera que el firmware maneje protocolo modbus y comunique las variables medidas a través de los puertos de comunicación. Físicamente se espera que el dispositivo sea capaz de comunicar por puertos serie RS-232 y RS-485, y ser diseñado pensando en su uso industrial (el dispositivo deberá ser robusto).
+
+
+\subsection{Alcances}
+
 
 %----------------------------------------------------------------------------------------
 
+El trabajo abarca desde el planteo, diseño y fabricación de un pcb, la selección de componentes la elaboración del esquemático de conexiones lógicas, elaboración del pcb y su diseño teniendo en cuenta la fabricación de este hasta inclusive la elaboración de un prototipo y testeo sobre este.
+
+También se espera que se  realice un firmware para el funcionamiento del dispositivo, teniendo en cuenta que el software debe incluir métodos de configuración para un futuro usuario.
 
 
 
