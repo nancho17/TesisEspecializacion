@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.3)  22 MAR 2020 04:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.3)  30 JUN 2020 19:10
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -1019,7 +1019,7 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- (Chapters/Chapter1.aux) (Chapters/Chapter2.aux))
+ (Chapters/Chapter1.aux))
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
@@ -1280,21 +1280,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 125.
 
 1: section
-<./Figures/logoFIUBA.png, id=67, 220.825pt x 220.825pt>
+<./Figures/logoFIUBA.png, id=39, 2536.47626pt x 818.05624pt>
 File: ./Figures/logoFIUBA.png Graphic file (type png)
 <use ./Figures/logoFIUBA.png>
-Package pdftex.def Info: ./Figures/logoFIUBA.png  used on input line 142.
-(pdftex.def)             Requested size: 116.94199pt x 116.94234pt.
+Package pdftex.def Info: ./Figures/logoFIUBA.png  used on input line 139.
+(pdftex.def)             Requested size: 311.84334pt x 100.57164pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 151.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 153.
 [1
 
 
 
 {C:/Users/herda/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/l
-ogoFIUBA.png>] [2
+ogoFIUBA.png (PNG copy)>] [2
 
 ]
 --------------------
@@ -1312,7 +1312,7 @@ ogoFIUBA.png>] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 205.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 208.
  (memoria.toc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
@@ -1358,7 +1358,7 @@ LaTeX Info: Redefining \% on input line 2.
  Dedicatory
 --------------------
 LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 216.
+(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 219.
 1: section
 [13] [14
 
@@ -1377,12 +1377,12 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 
 
 ]
-<Figures/3931_1.png, id=184, 226.59656pt x 216.81pt>
+<Figures/3931_1.png, id=138, 226.59656pt x 216.81pt>
 File: Figures/3931_1.png Graphic file (type png)
 <use Figures/3931_1.png>
 Package pdftex.def Info: Figures/3931_1.png  used on input line 43.
 (pdftex.def)             Requested size: 156.49014pt x 149.73138pt.
-<Figures/pzeem004.jpg, id=190, 1204.5pt x 1184.425pt>
+<Figures/pzeem004.jpg, id=144, 1204.5pt x 1184.425pt>
 File: Figures/pzeem004.jpg Graphic file (type jpg)
 <use Figures/pzeem004.jpg>
 Package pdftex.def Info: Figures/pzeem004.jpg  used on input line 62.
@@ -1391,14 +1391,11 @@ Package pdftex.def Info: Figures/pzeem004.jpg  used on input line 62.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/potencia_ej.png, id=191, 787.44188pt x 597.73312pt>
+<Figures/potencia_ej.png, id=145, 787.44188pt x 597.73312pt>
 File: Figures/potencia_ej.png Graphic file (type png)
 <use Figures/potencia_ej.png>
 Package pdftex.def Info: Figures/potencia_ej.png  used on input line 71.
 (pdftex.def)             Requested size: 341.43306pt x 259.1727pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 LaTeX Info: Redefining \sptext on input line 80.
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
@@ -1407,141 +1404,56 @@ LaTeX Info: Redefining \sptext on input line 87.
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
  [3 <./Figures/pzeem004.jpg> <./Figures/potencia_ej.png>]
-<Figures/dispositivo_empresa.png, id=207, 454.69875pt x 462.22687pt>
+<Figures/dispositivo_empresa.png, id=161, 454.69875pt x 462.22687pt>
 File: Figures/dispositivo_empresa.png Graphic file (type png)
 <use Figures/dispositivo_empresa.png>
 Package pdftex.def Info: Figures/dispositivo_empresa.png  used on input line 90
 .
 (pdftex.def)             Requested size: 227.62204pt x 231.39499pt.
 )
-LaTeX Info: Redefining \sptext on input line 231.
-LaTeX Info: Redefining \. on input line 231.
-LaTeX Info: Redefining \% on input line 231.
+LaTeX Info: Redefining \sptext on input line 234.
+LaTeX Info: Redefining \. on input line 234.
+LaTeX Info: Redefining \% on input line 234.
  [4 <./Figures/dispositivo_empresa.png>]
-\openout2 = `Chapters/Chapter2.aux'.
-
- (Chapters/Chapter2.tex
-Cap\'{\i }tulo 2.
-
-LaTeX Warning: Reference `sec:ejemplo' on page 5 undefined on input line 25.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
 
 1: section
 [5
 
 
-
 ]
-
-LaTeX Warning: Citation 'IEEE:citation' on page 6 undefined on input line 54.
-
-<./Figures/cuadradoAzul.png, id=220, 180.675pt x 180.675pt>
-File: ./Figures/cuadradoAzul.png Graphic file (type png)
-<use ./Figures/cuadradoAzul.png>
-Package pdftex.def Info: ./Figures/cuadradoAzul.png  used on input line 62.
-(pdftex.def)             Requested size: 63.23718pt x 63.23718pt.
-File: ./Figures/cuadradoAzul.png Graphic file (type png)
-<use ./Figures/cuadradoAzul.png>
-Package pdftex.def Info: ./Figures/cuadradoAzul.png  used on input line 69.
-(pdftex.def)             Requested size: 63.23718pt x 63.23718pt.
-LaTeX Info: Redefining \sptext on input line 75.
-LaTeX Info: Redefining \. on input line 75.
-LaTeX Info: Redefining \% on input line 75.
-[6 <./Figures/cuadradoAzul.png>]
-<./Figures/word.jpeg, id=232, 259.97125pt x 194.7275pt>
-File: ./Figures/word.jpeg Graphic file (type jpg)
-<use ./Figures/word.jpeg>
-Package pdftex.def Info: ./Figures/word.jpeg  used on input line 78.
-(pdftex.def)             Requested size: 64.99265pt x 48.68175pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 83.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 83.
-<./Figures/questionMark.png, id=236, 225.84375pt x 225.84375pt>
-File: ./Figures/questionMark.png Graphic file (type png)
-<use ./Figures/questionMark.png>
-Package pdftex.def Info: ./Figures/questionMark.png  used on input line 90.
-(pdftex.def)             Requested size: 90.33589pt x 90.33589pt.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 99.
-
-("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Overfull \hbox (50.38678pt too wide) in paragraph at lines 117--117
-[]\T1/pcr/m/n/10.95 \textbf{Especie}       & \textbf{Tamaño}  & \textbf{Valor a
-prox.}\\[] 
- []
-
-LaTeX Info: Redefining \sptext on input line 117.
-LaTeX Info: Redefining \. on input line 117.
-LaTeX Info: Redefining \% on input line 117.
-[7 <./Figures/word.jpeg> <./Figures/questionMark.png>]
-LaTeX Info: Redefining \sptext on input line 176.
-LaTeX Info: Redefining \. on input line 176.
-LaTeX Info: Redefining \% on input line 176.
- [8])
-LaTeX Info: Redefining \sptext on input line 232.
-LaTeX Info: Redefining \. on input line 232.
-LaTeX Info: Redefining \% on input line 232.
- [9] [10
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
-
-1: section
-[11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
  (memoria.aux
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- (Chapters/Chapter1.aux) (Chapters/Chapter2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+ (Chapters/Chapter1.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: A33B7963B962AAD1B7289E3DF83061EE;2769.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                memoria
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 8846B9BBCF9C862BF529D724AF4EA863;1517.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36225 strings out of 492969
- 728031 string characters out of 3126586
- 968054 words of memory out of 3000000
- 39670 multiletter control sequences out of 15000+200000
- 580055 words of font info for 99 fonts, out of 3000000 for 9000
+ 36088 strings out of 492969
+ 725865 string characters out of 3126586
+ 967054 words of memory out of 3000000
+ 39585 multiletter control sequences out of 15000+200000
+ 571834 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,76p,857b,2213s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
-st, replaced by a fixed one
-
-{C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
-C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/herda/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/herda/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/herda/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
-sers/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb
-><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/upl
+ 53i,20n,75p,857b,2097s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/upl
 b8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palat
 ino/uplb8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
 w/palatino/uplr8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/palatino/uplr8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on memoria.pdf (25 pages, 1385096 bytes).
+Output written on memoria.pdf (19 pages, 1444397 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,8 @@
+PWD C:\Users\herda\Desktop\MemoriaTrabajo\Chapters
+INPUT C:\Users\herda\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT Chapter3.tex
+OUTPUT Chapter3.log
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+OUTPUT Chapter3.pdf
+INPUT C:\Users\herda\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map

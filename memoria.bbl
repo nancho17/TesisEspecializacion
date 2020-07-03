@@ -171,24 +171,5 @@
     \field{title}{Principles of Sigma Delta Conversion for Analog to Digital
   Converters}
   \endentry
-
-  \entry{CIAA}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=P}{%
-         family={{Proyecto CIAA}},
-         familyi={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{P1}
-    \strng{fullhash}{P1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{note}{Disponible: 2016-06-25}
-    \field{title}{Computadora Industrial Abierta Argentina}
-    \verb{url}
-    \verb http://proyecto-ciaa.com.ar/devwiki/doku.php?id=start
-    \endverb
-    \field{year}{2014}
-  \endentry
 \enddatalist
 \endinput

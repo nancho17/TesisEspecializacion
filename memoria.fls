@@ -214,8 +214,6 @@ INPUT memoria.aux
 INPUT memoria.aux
 INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter1.aux
-INPUT Chapters\Chapter2.aux
-INPUT Chapters\Chapter2.aux
 OUTPUT memoria.aux
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
@@ -264,13 +262,13 @@ INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
 INPUT Figures\logoFIUBA.png
 INPUT .\Figures\logoFIUBA.png
 INPUT .\Figures\logoFIUBA.png
 INPUT .\Figures\logoFIUBA.png
 INPUT .\Figures\logoFIUBA.png
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
@@ -316,10 +314,7 @@ INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\p
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT memoria.lof
 INPUT memoria.lof
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
 OUTPUT memoria.lof
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT memoria.lot
 INPUT memoria.lot
 OUTPUT memoria.lot
@@ -362,71 +357,14 @@ INPUT .\Figures\dispositivo_empresa.png
 INPUT .\Figures\dispositivo_empresa.png
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplri8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
-OUTPUT Chapters\Chapter2.aux
-INPUT Chapters\Chapter2.tex
-INPUT Chapters\Chapter2.tex
-INPUT Figures\cuadradoAzul.png
-INPUT .\Figures\cuadradoAzul.png
-INPUT .\Figures\cuadradoAzul.png
-INPUT .\Figures\cuadradoAzul.png
-INPUT .\Figures\cuadradoAzul.png
-INPUT Figures\cuadradoAzul.png
-INPUT .\Figures\cuadradoAzul.png
-INPUT Figures\word.jpeg
-INPUT .\Figures\word.jpeg
-INPUT .\Figures\word.jpeg
-INPUT .\Figures\word.jpeg
-INPUT .\Figures\word.jpeg
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi9.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy9.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss9.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt9.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
-INPUT Figures\questionMark.png
-INPUT .\Figures\questionMark.png
-INPUT .\Figures\questionMark.png
-INPUT .\Figures\questionMark.png
-INPUT .\Figures\questionMark.png
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\courier\pcrr8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8r.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx8.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx6.tfm
 INPUT memoria.aux
 INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter1.aux
-INPUT Chapters\Chapter2.aux
-INPUT Chapters\Chapter2.aux
 INPUT .\memoria.out
 INPUT .\memoria.out
 INPUT memoria.run.xml
 OUTPUT memoria.run.xml
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\courier\ucrr8a.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb

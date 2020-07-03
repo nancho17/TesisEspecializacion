@@ -1,7 +1,7 @@
 % Chapter 1
 
 \chapter{Introducción General} % Main chapter title
-En este capítulo se describe la motivación del trabajo y sus objetivos, con una pequeña explicación de algunos conceptos fundamentales para entenderlo.
+En este capítulo se describe la motivación del trabajo y sus objetivos, con una breve explicación de algunos conceptos fundamentales para entenderlo.
 
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 %\label{IntroGeneral}
@@ -23,18 +23,20 @@ En este capítulo se describe la motivación del trabajo y sus objetivos, con un
 %----------------------------------------------------------------------------------------
 \section{Descripción general del trabajo y conceptos clave}
 
-El trabajo desarrollado consiste en un sistema adquisidor de datos con los sensores necesarios para una medición de potencia eléctrica, en otras palabras, un medidor digital de energía eléctrica. El trabajo fue desarrollado para SERVAIND S.A. que es una empresa privada localizada en Argentina.
+El trabajo desarrollado consiste en un sistema adquisidor de datos con los sensores necesarios para medir potencia eléctrica, en otras palabras, un medidor digital de energía eléctrica. El trabajo fue desarrollado para SERVAIND S.A. que es una empresa privada localizada en Argentina.
 
-El término medida es utilizado para describir el acto de determinar el valor o tamaño de una cantidad por ejemplo una corriente. Hay un gran número de tipos de cantidades en el campo de la ingeniería que necesitan ser medidas o expresadas en el trabajo día a día. Esto incluye cantidades físicas, mecánicas y eléctricas por ejemplo. De modo de almacenar y comparar estas magnitudes de cantidad algunas magnitudes deben ser tomadas como base o unidad \citep{book:1689974}. Estas unidades medidas son de interés y por lo tanto se almacenan en el medidor digital.
+El término medida es utilizado para describir el acto de determinar el valor o tamaño de una cantidad, por ejemplo una corriente eléctrica. Hay un gran número de tipos de cantidades en el campo de la ingeniería que necesitan ser medidas o expresadas en el trabajo diario. Esto incluye cantidades físicas, mecánicas y eléctricas por ejemplo \citep{book:1689974}. La potencia eléctrica es una de estas cantidades físicas que suele ser de interés en diversos ámbitos, y para medirla y almacenarla en forma de datos se utiliza un medidor digital.
 
-La adquisición de datos o adquisición de señales consiste en la toma de muestras del mundo real (sistema analógico) para generar datos que puedan ser manipulados por un ordenador u otros dispositivos electrónicos (sistema digital). Se requiere una etapa de acondicionamiento, que adecua la señal a niveles compatibles con el elemento que hace la transformación a señal digital.\cite{NIDataAdquisition}
+La adquisición de datos o adquisición de señales consiste en la toma de muestras del mundo real (sistema analógico) para generar datos que puedan ser manipulados por un ordenador u otros dispositivos electrónicos (sistema digital). Se requiere una etapa de acondicionamiento, que adecua la señal a niveles compatibles con el elemento que hace la transformación a señal digital\cite{NIDataAdquisition}.
 
 Un convertidor de señal analógica a digital (ADC) es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificador.
 
 
 \subsection{Sistemas electrónicos para mediciones eléctricas}
 
-Las aplicaciones más tempranas de computadores digitales a problemas de sistemas de potencia datan de alrededor de 1940. La mayoría de las aplicaciones tempranas estaban limitadas en alcance debido a la pequeña capacidad de las tarjetas calculadoras usadas en ese período. Computadoras digitales de larga escala estuvieron disponibles a mediados de 1950, y el éxito inicial de programas de flujo de carga llevó al desarrollo de programas para cálculos de corto circuitos y estabilidad \citep{761852}.
+Las aplicaciones más tempranas de computadores digitales a problemas de sistemas de potencia datan de alrededor de 1940. La mayoría de las aplicaciones tempranas estaban limitadas en alcance debido a la pequeña capacidad de las tarjetas calculadoras usadas en ese momento. 
+
+Computadoras digitales de larga escala estuvieron disponibles a mediados de 1950, y el éxito inicial de programas de flujo de carga llevó al desarrollo de programas para cálculos de corto circuitos y estabilidad \citep{761852}.
 
 Los medidores electrónicos digitalizan las variables medidas vía un ADC sigma delta  de alta resolución. La técnica de diseño de estos medidores digitales está influenciada por tres grandes factores: el costo , eficiencia y tamaño. Mientras que el costo se ve influenciado por la capacidad de compra del cliente, la eficiencia y el tamaño se encuentran sujetos a estándares como los establecidos por la IEC (International Electrotechnical Commission) \cite{articleDM}.
 
@@ -66,7 +68,7 @@ Los módulos de medición pueden servir como un monitoreo de primera instancia y
 
 Estos módulos se consiguen únicamente en el mercado internacional de modo que hay que importarlos, lo que presenta una barrera para una herramienta de monitoreo simple.
 
-\begin{figure}[!h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=120mm,keepaspectratio]{Figures/potencia_ej.png}
 	\caption{Gráfico de medición de potencia que muestran el encendido de un frigorífico.}
@@ -85,7 +87,7 @@ Desde el punto de vista de la empresa privada, el trabajo se planteó ante la ne
 
 El objetivo del trabajo fue el desarrollo de un dispositivo de medición basado en un microcontrolador de la familia MSP430 en conjunto con un ADC SOC (\textit{system on chip}). Se pretende lograr un dispositivo comercial similar a aquellos elaborados anteriormente por la empresa privada, por lo que las dimensiones del PCB (\textit{printed circuit board}) deberán ajustarse a los utilizados por las carcasas estándar que utiliza la empresa, como puede verse en la figura \ref{fig:disp_emp}.
 
-\begin{figure}[h]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=80mm,keepaspectratio]{Figures/dispositivo_empresa.png}
 	\caption{Ejemplo de dispositivo fabricado por la SERVAIND S.A.}
