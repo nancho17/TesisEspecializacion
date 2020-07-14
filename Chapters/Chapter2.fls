@@ -3,4 +3,3 @@ INPUT C:\Users\herda\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
 INPUT Chapter2.tex
 OUTPUT Chapter2.log
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm

@@ -57,23 +57,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{761852}{article}{}
-    \keyw{cable ampacity;dc power system studies;ground mat studies;harmonic
-  analysis;load flow studies;motor-starting studies;power system analysis;power
-  system modeling;power system studies;protective coordination
-  studies;reliability studies;short-circuit studies}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1109/IEEESTD.1998.88568
-    \endverb
-    \field{pages}{1\bibrangedash 488}
-    \field{title}{IEEE Recommended Practice for Industrial and Commercial Power
-  Systems Analysis (Brown Book)}
-    \field{journaltitle}{IEEE Std 399-1997}
-    \field{year}{1998}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
   \entry{articleDM}{article}{}
     \name{author}{3}{}{%
       {{hash=MC}{%
@@ -147,7 +130,7 @@
          giveni={F\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HJFPHM+1}
+    \strng{namehash}{HJ+1}
     \strng{fullhash}{HJFPHMMRLBSF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -170,6 +153,45 @@
     \field{labeltitlesource}{title}
     \field{title}{Principles of Sigma Delta Conversion for Analog to Digital
   Converters}
+  \endentry
+
+  \entry{JTAGintel}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=RJSC}{%
+         family={Randy\bibnamedelima Johnson},
+         familyi={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Stewart\bibnamedelima Christie},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Intel Corporation}%
+    }
+    \strng{namehash}{RJSC1}
+    \strng{fullhash}{RJSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{321095}
+    \field{title}{JTAG 101 - IEEE 1149.x and Software}
+    \verb{url}
+    \verb https://www.intel.com/content/dam/www/public/us/en/documents/white-pa
+    \verb pers/jtag-101-ieee-1149x-paper.pdf
+    \endverb
+    \field{year}{January 2009}
+  \endentry
+
+  \entry{GuideMSPStack}{manual}{}
+    \list{organization}{1}{%
+      {Texas Instrument}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Revised June 2016}
+    \field{number}{SLAU656B}
+    \field{title}{Developer's Guide - MSPDebugStack}
+    \verb{url}
+    \verb https://www.ti.com/lit/ug/slau656b/slau656b.pdf?ts=1594684069406
+    \endverb
+    \field{year}{015}
   \endentry
 \enddatalist
 \endinput

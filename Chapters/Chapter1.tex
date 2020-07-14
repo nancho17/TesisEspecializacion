@@ -1,6 +1,6 @@
 % Chapter 1
 
-\chapter{Introducción General} % Main chapter title
+\chapter{Introducción general} % Main chapter title
 En este capítulo se describe la motivación del trabajo y sus objetivos, con una breve explicación de algunos conceptos fundamentales para entenderlo.
 
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
@@ -31,14 +31,17 @@ La adquisición de datos o adquisición de señales consiste en la toma de muest
 
 Un convertidor de señal analógica a digital (ADC) es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificador.
 
+Existen diversos métodos para la conversión de señal analógica a digital como el método poser la de aproximaciones sucesivas, la conversión directa , la de comparación rampa , la conversación por integración y  la de sigma delta\cite{Conversores}.
 
-\subsection{Sistemas electrónicos para mediciones eléctricas}
+\subsection{Mediciones eléctricas digitales}
 
-Las aplicaciones más tempranas de computadores digitales a problemas de sistemas de potencia datan de alrededor de 1940. La mayoría de las aplicaciones tempranas estaban limitadas en alcance debido a la pequeña capacidad de las tarjetas calculadoras usadas en ese momento. 
+La mayoría de los medidores electrónicos digitalizan las variables medidas vía un ADC sigma delta  de alta resolución. La técnica de diseño de estos medidores digitales está influenciada por tres grandes factores: el costo , la eficiencia y el tamaño. Mientras que el costo se ve influenciado por la capacidad de compra del cliente, la eficiencia y el tamaño se encuentran sujetos a estándares como por ejemplo el IEC-62052-11 establecido por la IEC (International Electrotechnical Commission) \cite{articleDM}.
 
-Computadoras digitales de larga escala estuvieron disponibles a mediados de 1950, y el éxito inicial de programas de flujo de carga llevó al desarrollo de programas para cálculos de corto circuitos y estabilidad \citep{761852}.
-
-Los medidores electrónicos digitalizan las variables medidas vía un ADC sigma delta  de alta resolución. La técnica de diseño de estos medidores digitales está influenciada por tres grandes factores: el costo , eficiencia y tamaño. Mientras que el costo se ve influenciado por la capacidad de compra del cliente, la eficiencia y el tamaño se encuentran sujetos a estándares como los establecidos por la IEC (International Electrotechnical Commission) \cite{articleDM}.
+%IEC-62052-11
+%Electricity metering equipment (AC) –
+%General requirements, tests and test conditions –
+%Part 11:
+%Metering equipment 
 
 \begin{figure}[h]
 	\centering
@@ -47,17 +50,47 @@ Los medidores electrónicos digitalizan las variables medidas vía un ADC sigma 
 	\label{fig:texmaker}
 \end{figure}
 
-La exactitud del medidor eléctrico digital depende de la precisión del circuito analógico de entrada analógica, la del conversor analógico-digital y la de los cálculos digitales \citep{Hribik2004DigitalPA}.
+La exactitud del medidor eléctrico digital depende de la precisión del circuito de entrada analógica, la del conversor analógico-digital y la de los cálculos digitales \citep{Hribik2004DigitalPA}.
 
 Los convertidores analógicos-digitales basados en la modulación sigma - delta son económicamente viables para convertidores de alta resolución (mayores que 12 bits), por lo que son  usados en el circuito integrado de procesadores de señales.
 
 La modulación sigma-delta fue introducida en 1962 y no ganaría importancia hasta recientes desarrollos en tecnologías VLSI (integración a escala muy grande) que proveen fines prácticos para implementar complejos circuitos de procesamiento de señales \citep{book:28601}.
 
+
+\section{Estructura del trabajo}
+
+\label{sec:structdescript1}
+Inicialmente se realizó un plan de trabajo donde se plantea cómo se afronta el problema y el modo en que se lo resolverá. El proyecto consta de dos partes principales: hardware y software.
+
+Para el hardware se planteó un diagrama de bloques que sirvió de guía al realizar el esquemático, que puede verse en la figura \ref{fig:bloquess1}. El diagrama plantea dos sectores uno de procesamiento y otro de medición que se encontraran aislados.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=120mm,keepaspectratio]{Figures/concepto.jpeg}
+	\caption{Diagrama planteado para la elaboración de hardware.}
+	\label{fig:bloquess1}
+\end{figure}
+
+El diagrama presupone que se usará una entrada de alimentación de corriente continua de 8 a 30 V conectado a una una fuente \textit{switching}, alimentando tanto al procesamiento como a la medición.
+
+Del sistema de procesamiento se tiene que el hardware contara con un puerto de configuración y varias salidas optoacopladas, se plantea que estas salidas sean un relé ,un puerto serie y un puerto ethernet.
+
+Del sistema de medición se observa comunicar al procesamiento por una comunicación digital aislada y también por una salida analógica. También se indica que la medición tendrá varias entradas analógicas, pero estas no fueron especificadas.
+
+En cuanto el software se estableció que sea el necesario para lograr el testeo de las partes del hardware y la verificación de los requerimientos, por lo que el software debía manejar correctamente todos los integrados que fueran a estar embebidos en el circuito del dispositivo y manejar todos los protocolos definidos en los requisitos.
+
+El enfoque inicial del trabajo fue el armado de la electrónica del prototipo, y el software se constituyó como la segunda parte que debía demostrar el correcto funcionamiento del hardware.
+
+
+
+
 \section{Motivación}
 
 En la actualidad se pueden encontrar en el mercado internacional múltiples módulos electrónicos de bajo costo con puertos de comunicación para la medición de energía eléctrica como así también medidores digitales de energía de diferentes marcas para diferentes entornos, lo que nos permite pensar que un dispositivo similar podría ser fabricado en la Argentina.
 
-Los módulos de medición pueden servir como un monitoreo de primera instancia y funcionar como un método preventivo de fallas, dado que los parámetros de consumo dan una idea de estado de las máquinas.  El módulo de la figura \ref{fig:pzem04} fue usado en un trabajo de grado para un local comercial cuyo resultados pueden verse en la figura \ref{fig:graficoW}.  
+Los módulos de medición pueden servir para apoyar otros sistemas de seguridad actuando como un método preventivo de fallas, dado que los parámetros de consumo dan una idea de estado de las máquinas eléctricas.  
+
+El módulo de la figura \ref{fig:pzem04} es un medidor de energía que se comunica mediante una interfaz serie universal. Este modulo fue usado en una experiencia previa en la cual varios módulos fueron instalados en un local comercial para medir el consumo de la mayoría de los electrodomésticos. Gracias a su implementación se detectaron fallas en algunas maquinas, además se observo el comportamiento del aparato eléctrico de mayor consumo del local que es la cámara frigorífica (que representa mas del 25\% del consumo total), cuyo comportamiento puede verse en la figura \ref{fig:graficoW}.  
 
 \begin{figure}[h]
 	\centering
@@ -66,26 +99,65 @@ Los módulos de medición pueden servir como un monitoreo de primera instancia y
 	\label{fig:pzem04}
 \end{figure}
 
-Estos módulos se consiguen únicamente en el mercado internacional de modo que hay que importarlos, lo que presenta una barrera para una herramienta de monitoreo simple.
+Estos módulos se consiguen únicamente en el mercado internacional de modo que hay que importarlos, lo que presenta una barrera para una herramienta de monitoreo simple de incorporar.
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=120mm,keepaspectratio]{Figures/potencia_ej.png}
-	\caption{Gráfico de medición de potencia que muestran el encendido de un frigorífico.}
+	\caption{Gráfico de medición de potencia que muestran el encendido del motor trifásico de compresión de un frigorífico.}
 	\label{fig:graficoW}
 \end{figure}
 
-Estas gráficas sirvieron para realizar observaciones como el encendido de un motor trifásico y malfuncionamiento de equipos de refrigeración.
+Estas gráficas sirvieron para tener una idea mas clara del funcionamiento del encendido de la cámara frigorífica y saber el costo energético que implica. Además gracias a los datos recabados se lograron detectar malfuncionamientos en otros equipos eléctricos de refrigeración.
  
-
 Desde el punto de vista de la empresa privada, el trabajo se planteó ante la necesidad de cuantificar consumos energéticos de procesos industriales para supervisar la alimentación de equipos de control o de medición. También como una alternativa a un producto anterior que solo medía consumos de corriente continua. En suma la necesidad de hacer uso de la herramienta y poseer los medios necesarios para fabricar la electrónica de manera local  impulsaron el trabajo realizado.
+
+
+
+\section{Requerimientos del trabajo}
+\label{sec:cap2parte2}
+Los requerimientos fueron elaborados a partir de un documento enviado por el equipo de desarrollo de la empresa. Pueden verse en la siguiente lista:
+
+\begin{itemize}
+\item Grupo de requerimientos referidos a medición de potencia del equipo:
+\begin{enumerate}
+\item El dispositivo debe ser capaz de realizar la medición de tensión alterna de una línea monofásica de baja tensión de Argentina, entrada de medición para 220 V o 380 V con una tolerancia de +/-15\%.
+\item El dispositivo debe ser capaz de realizar la medición de corriente alterna de una línea monofásica de baja tensión de Argentina, hasta 5 A.
+\item El dispositivo debe ser capaz de realizar la medición de potencia eléctrica activa de una línea monofásica de baja tensión de Argentina, hasta 4000 W.
+\item El sistema de medición que se utiliza para las mediciones debe ser aislado de la salida de comunicaciones del puerto serie.
+\end{enumerate}
+
+\item Grupo de requerimientos referidos a Interfaces de comunicación:
+\begin{enumerate}
+\setcounter{enumi}{4}
+\item El dispositivo debe realizar las comunicaciones a través de protocolos RS485 y RS232.
+\item El dispositivo debe tener en su diseño espacio para una posible modificación a futuro en la que se incluya una interfaz ethernet a través de una entrada para rj45.
+\end{enumerate}
+
+\item Grupo de requerimientos referidos a diseño del circuito eléctrico:
+\begin{enumerate}
+\setcounter{enumi}{6}
+\item El dispositivo debe alimentarse con tensión continua que debe ser inferior a 30 V y superior a 12 V.
+\item El dispositivo debe poseer como microcontrolador principal MSP430F2418.
+\item El dispositivo debe implementar protecciones contra sobretensión en salida y entradas.
+\item El dspositivo debe tener un relé para realizar un corte por corriente.
+\end{enumerate}
+
+\item Grupo de requerimientos referidos a diseño  de impresión del circuito:
+\begin{enumerate}
+\setcounter{enumi}{10}
+\item El tipo de soldado debe ser por refusión en la cara superior del circuito impreso.
+
+\item El tipo de soldado debe ser por ola en la cara inferior del circuito impreso.
+\end{enumerate}
+\end{itemize}
+
 
 \section{Objetivos y alcance}
 
-
 \subsection{Objetivos del desarrollo}
 
-El objetivo del trabajo fue el desarrollo de un dispositivo de medición basado en un microcontrolador de la familia MSP430 en conjunto con un ADC SOC (\textit{system on chip}). Se pretende lograr un dispositivo comercial similar a aquellos elaborados anteriormente por la empresa privada, por lo que las dimensiones del PCB (\textit{printed circuit board}) deberán ajustarse a los utilizados por las carcasas estándar que utiliza la empresa, como puede verse en la figura \ref{fig:disp_emp}.
+El objetivo del trabajo fue el desarrollo de un dispositivo de medición basado en un microcontrolador de la familia MSP430 en conjunto con un ADC SOC (\textit{system on chip}). Se pretendió lograr un dispositivo comercial similar a aquellos elaborados anteriormente por la empresa privada, por lo que las dimensiones del PCB (\textit{printed circuit board}) deberán ajustarse a las utilizadas por las carcasas estándar que utiliza la empresa, como puede verse en la figura \ref{fig:disp_emp}.
 
 \begin{figure}[!h]
 	\centering
@@ -94,7 +166,7 @@ El objetivo del trabajo fue el desarrollo de un dispositivo de medición basado 
 	\label{fig:disp_emp}
 \end{figure}
 
-Además, se esperaba que el firmware manejara protocolo modbus y comunicara las variables medidas a través de los puertos de comunicación. Físicamente se pretendío que el dispositivo fuera capaz de comunicar por puertos serie RS-232 y RS-485, y que este pudiera funcionar en un ambiente industrial (el dispositivo tendría que ser robusto).
+Además, se esperaba que el firmware manejara protocolo modbus y comunicara las variables medidas a través de los puertos de comunicación. Físicamente se estableció que el dispositivo fuera capaz de comunicar por puertos serie RS-232 y RS-485, y que este pudiera funcionar en un ambiente industrial (el dispositivo tendría que ser robusto).
 
 
 \subsection{Alcances}
@@ -102,11 +174,6 @@ Además, se esperaba que el firmware manejara protocolo modbus y comunicara las 
 
 %----------------------------------------------------------------------------------------
 
-El trabajo abarco el planteo, diseño y fabricación de un pcb. Asimismo, incluye la selección de componentes, la elaboración del esquemático de conexiones lógicas y la elaboración del pcb y su diseño para la fabricación. Ademas se debió elaborar un prototipo y realizar testeos sobre este.
+El trabajo abarcó el planteo, diseño y fabricación de un pcb. Asimismo, incluye la selección de componentes, la elaboración del esquemático de conexiones lógicas y la elaboración del pcb y su diseño para la fabricación. Además se debió elaborar un prototipo y realizar testeos.
 
 También se esperaba realizar un firmware para el funcionamiento del dispositivo, teniendo en cuenta que el software debía incluir métodos de configuración para un futuro usuario.
-
-
-
-
-
