@@ -1,9 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1594528288 "Chapter2.tex" "Chapter2.pdf" "Chapter2" 1594528288
+["pdflatex"] 1595539068 "Chapter2.tex" "Chapter2.pdf" "Chapter2" 1595539068
   "C:/Users/herda/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1543810471 4162378 faee42255165e3f5c597643d57024008 ""
+  "C:/Users/herda/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1593745941 83721 56dfc66f96b4bc7777806d83f0266370 ""
   "C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
-  "Chapter2.aux" 1594456258 6093 9baa357a34ba3e3e0a1dc5501a55aff0 ""
-  "Chapter2.tex" 1594528285 5882 bc0c5c87919900f639e75939ecd11804 ""
+  "C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "Chapter2.aux" 1595461487 8116 4b8f5a718800016b862ea9066ce79507 ""
+  "Chapter2.tex" 1595539065 18119 7e4fbdcb6497534a6ea50aa219dd04e5 ""
   (generated)
   "Chapter2.pdf"
   "Chapter2.log"

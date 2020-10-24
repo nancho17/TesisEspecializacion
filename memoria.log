@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.3)  13 JUL 2020 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.3)  24 AUG 2020 01:05
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -825,48 +825,47 @@ Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 sty"
 Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
 
-("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
-hyperref.sty"
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hobsub\hobsub-hype
+rref.sty"
+Package: hobsub-hyperref 2019-11-14
+hobsub not currently supported, see hobsub.dtx to extract original code
 
-
-("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
-generic.sty"
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+)
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+)
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfesca
+pe.sty"
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hycolor.s
+ty"
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\xcolor-pa
+tch.sty"
+Package: xcolor-patch 2016/05/16 xcolor patch
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hopatch.s
+ty"
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+)))
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\letltxmac
+ro.sty"
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+))
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.s
+ty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
 sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.s
-ty"
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen178
 \Hy@linkcounter=\count415
@@ -877,6 +876,10 @@ f"
 File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\intcalc
+.sty"
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count417
 
@@ -894,6 +897,16 @@ Package hyperref Info: Bookmarks ON on input line 4788.
 \c@Hy@tempcnt=\count418
 LaTeX Info: Redefining \url on input line 5141.
 \XeTeXLinkMargin=\dimen179
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bitset.
+sty"
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bigintc
+alc.sty"
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+))
 \Fld@menulength=\count419
 \Field@Width=\dimen180
 \Fld@charsize=\dimen181
@@ -906,6 +919,11 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6421.
 Package hyperref Info: PDF/A mode OFF on input line 6426.
 LaTeX Info: Redefining \ref on input line 6466.
 LaTeX Info: Redefining \pageref on input line 6470.
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegsh
+i.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
 \Hy@abspage=\count420
 \c@Item=\count421
 \c@Hfootnote=\count422
@@ -918,12 +936,22 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.d
 ef"
 File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\atveryend
+.sty"
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+)
 \Fld@listcount=\count423
 \c@bookmark@seq@number=\count424
 
 ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfile
 check.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\uniquec
+ounter.sty"
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
@@ -975,6 +1003,83 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
 1: chapter
 1: section
 )
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip84
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen190
+)
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count428
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count429
+\leftroot@=\count430
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count431
+\DOTSCASE@=\count432
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+\big@size=\dimen191
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count433
+\c@MaxMatrixCols=\count434
+\dotsspace@=\muskip17
+\c@parentequation=\count435
+\dspbrk@lvl=\count436
+\tag@help=\toks24
+\row@=\count437
+\column@=\count438
+\maxfields@=\count439
+\andhelp@=\toks25
+\eqnshift@=\dimen192
+\alignsep@=\dimen193
+\tagshift@=\dimen194
+\tagwidth@=\dimen195
+\totwidth@=\dimen196
+\lineht@=\dimen197
+\@envbody=\toks26
+\multlinegap=\skip85
+\multlinetaggap=\skip86
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
+\thm@preskip=\skip87
+\thm@postskip=\skip88
+\thm@headsep=\skip89
+\dth@everypar=\toks33
+)
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
@@ -992,39 +1097,39 @@ LaTeX Info: Redefining \% on input line 30.
 
 LaTeX Warning: Label `sec:cap2parte2' multiply defined.
 
+) (Chapters/Chapter3.aux
 
-LaTeX Warning: Label `fig:mspFETtool' multiply defined.
+LaTeX Warning: Label `fig:rele1equem' multiply defined.
 
-
-LaTeX Warning: Label `sec:cap2parte3' multiply defined.
-
-))
+) (Chapters/Chapter4.aux) (Chapters/Chapter5.aux))
 \openout1 = `memoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 85.
- ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 89.
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Info: Redefining \sptext on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
+LaTeX Info: Redefining \sptext on input line 89.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
- ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1112,17 +1217,17 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count428
-\scratchdimen=\dimen190
-\scratchbox=\box57
-\nofMPsegments=\count429
-\nofMParguments=\count430
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count431
-\MPscratchDim=\dimen191
-\MPnumerator=\count432
-\makeMPintoPDFobject=\count433
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count440
+\scratchdimen=\dimen198
+\scratchbox=\box59
+\nofMPsegments=\count441
+\nofMParguments=\count442
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count443
+\MPscratchDim=\dimen199
+\MPnumerator=\count444
+\makeMPintoPDFobject=\count445
+\everyMPtoPDFconversion=\toks35
 )
 ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -1143,8 +1248,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count434
-Package scrhack Info: undefining \float@addtolists on input line 85.
+\c@lstlisting=\count446
+Package scrhack Info: undefining \float@addtolists on input line 89.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1156,24 +1261,28 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'memoria.bbl' found.
  (memoria.bbl)
-Package biblatex Info: Reference section=0 on input line 85.
-Package biblatex Info: Reference segment=0 on input line 85.
-\AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring ON on input line 85.
+Package biblatex Info: Reference section=0 on input line 89.
+Package biblatex Info: Reference segment=0 on input line 89.
+\AtBeginShipoutBox=\box60
+Package hyperref Info: Link coloring ON on input line 89.
 
 ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
 ty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.
+sty"
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+)
 ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitl
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count435
+\c@section@level=\count447
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
  (memoria.out) (memoria.out)
 \@outlinefile=\write4
 \openout4 = `memoria.out'.
@@ -1215,54 +1324,56 @@ LaTeX Info: Redefining \nameref on input line 85.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 85.
-LaTeX Info: Redefining \sptext on input line 85.
-LaTeX Info: Redefining \lsc on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \dotlessi on input line 85.
-Package scrbase Info: activating spanish \lstlistingname on input line 85.
-LaTeX Info: Redefining \sptext on input line 85.
-LaTeX Info: Redefining \lsc on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \dotlessi on input line 85.
-Package scrbase Info: activating spanish \acknowledgementname on input line 85.
+(scrlayer)             \begin{document} on input line 89.
+LaTeX Info: Redefining \sptext on input line 89.
+LaTeX Info: Redefining \lsc on input line 89.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+LaTeX Info: Redefining \dotlessi on input line 89.
+Package scrbase Info: activating spanish \lstlistingname on input line 89.
+LaTeX Info: Redefining \sptext on input line 89.
+LaTeX Info: Redefining \lsc on input line 89.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+LaTeX Info: Redefining \dotlessi on input line 89.
+Package scrbase Info: activating spanish \acknowledgementname on input line 89.
 
-LaTeX Info: Redefining \sptext on input line 85.
-LaTeX Info: Redefining \lsc on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \dotlessi on input line 85.
-Package scrbase Info: activating spanish \authorshipname on input line 85.
-LaTeX Info: Redefining \sptext on input line 85.
-LaTeX Info: Redefining \lsc on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \dotlessi on input line 85.
-Package scrbase Info: activating spanish \abbrevname on input line 85.
-LaTeX Info: Redefining \sptext on input line 85.
-LaTeX Info: Redefining \lsc on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \dotlessi on input line 85.
-Package scrbase Info: activating spanish \byname on input line 85.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 85.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 85.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 85.
+LaTeX Info: Redefining \sptext on input line 89.
+LaTeX Info: Redefining \lsc on input line 89.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+LaTeX Info: Redefining \dotlessi on input line 89.
+Package scrbase Info: activating spanish \authorshipname on input line 89.
+LaTeX Info: Redefining \sptext on input line 89.
+LaTeX Info: Redefining \lsc on input line 89.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+LaTeX Info: Redefining \dotlessi on input line 89.
+Package scrbase Info: activating spanish \abbrevname on input line 89.
+LaTeX Info: Redefining \sptext on input line 89.
+LaTeX Info: Redefining \lsc on input line 89.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+LaTeX Info: Redefining \dotlessi on input line 89.
+Package scrbase Info: activating spanish \byname on input line 89.
+LaTeX Font Info:    Try loading font information for U+msa on input line 89.
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 89.
+("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 1: section
-<./Figures/logoFIUBA.png, id=75, 2536.47626pt x 818.05624pt>
+<./Figures/logoFIUBA.png, id=227, 2536.47626pt x 818.05624pt>
 File: ./Figures/logoFIUBA.png Graphic file (type png)
 <use ./Figures/logoFIUBA.png>
-Package pdftex.def Info: ./Figures/logoFIUBA.png  used on input line 99.
+Package pdftex.def Info: ./Figures/logoFIUBA.png  used on input line 103.
 (pdftex.def)             Requested size: 311.84334pt x 100.57164pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 107.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 111.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 113.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 117.
 [1
 
 
@@ -1286,7 +1397,7 @@ ogoFIUBA.png (PNG copy)>] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 168.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 172.
  (memoria.toc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
@@ -1295,27 +1406,31 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 3.
+
+1: section
+[7]
+Overfull \hbox (2.99193pt too wide) in paragraph at lines 53--53
+ [][] [][][]\T1/ppl/m/n/10.95 Grupo de re-que-ri-mien-tos re-fe-ri-dos a di-se-
+ño del cir-cui-to eléc- 
+ []
+
 )
 \tf@toc=\write5
 \openout5 = `memoria.toc'.
 
-
-1: section
-[7] [8
-
-] (memoria.lof
+ [8] (memoria.lof
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-)
+
+1: section
+[9
+
+])
 \tf@lof=\write6
 \openout6 = `memoria.lof'.
 
-
-1: section
-[9] [10
-
-] (memoria.lot
+ [10] (memoria.lot
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -1325,14 +1440,16 @@ LaTeX Info: Redefining \% on input line 2.
 
 
 1: section
-[11] [12
+[11
+
+] [12
 
 ]
 --------------------
  Dedicatory
 --------------------
 LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 179.
+(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 183.
 1: section
 [13] [14
 
@@ -1343,175 +1460,471 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <14.4> not available
 (Chapters/Chapter1.tex
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 24.
-
-LaTeX Warning: Citation 'Conversores' on page 1 undefined on input line 34.
-
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 36.
-<Figures/3931_1.png, id=194, 226.59656pt x 216.81pt>
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 25.
+<Figures/3931_1.png, id=467, 226.59656pt x 216.81pt>
 File: Figures/3931_1.png Graphic file (type png)
 <use Figures/3931_1.png>
-Package pdftex.def Info: Figures/3931_1.png  used on input line 48.
+Package pdftex.def Info: Figures/3931_1.png  used on input line 55.
 (pdftex.def)             Requested size: 156.49014pt x 149.73138pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 1: section
 [1
 
 
-]
-<Figures/concepto.jpeg, id=206, 497.9403pt x 299.1978pt>
-File: Figures/concepto.jpeg Graphic file (type jpg)
-<use Figures/concepto.jpeg>
-Package pdftex.def Info: Figures/concepto.jpeg  used on input line 69.
-(pdftex.def)             Requested size: 341.43306pt x 205.15468pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Info: Redefining \sptext on input line 83.
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
-[2 <./Figures/3931_1.png>]
-<Figures/pzeem004.jpg, id=217, 1204.5pt x 1184.425pt>
+ <./Figures/3931_1.png>]
+<Figures/concepto.png, id=484, 533.1117pt x 334.3692pt>
+File: Figures/concepto.png Graphic file (type png)
+<use Figures/concepto.png>
+Package pdftex.def Info: Figures/concepto.png  used on input line 78.
+(pdftex.def)             Requested size: 389.80269pt x 244.49054pt.
+LaTeX Info: Redefining \sptext on input line 96.
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+ [2 <./Figures/concepto.png>]
+<Figures/pzeem004.jpg, id=497, 1204.5pt x 1184.425pt>
 File: Figures/pzeem004.jpg Graphic file (type jpg)
 <use Figures/pzeem004.jpg>
-Package pdftex.def Info: Figures/pzeem004.jpg  used on input line 97.
+Package pdftex.def Info: Figures/pzeem004.jpg  used on input line 108.
 (pdftex.def)             Requested size: 227.62204pt x 223.81413pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/potencia_ej.png, id=218, 787.44188pt x 597.73312pt>
+<Figures/potencia_ej.png, id=501, 787.44188pt x 597.73312pt>
 File: Figures/potencia_ej.png Graphic file (type png)
 <use Figures/potencia_ej.png>
-Package pdftex.def Info: Figures/potencia_ej.png  used on input line 106.
+Package pdftex.def Info: Figures/potencia_ej.png  used on input line 119.
 (pdftex.def)             Requested size: 341.43306pt x 259.1727pt.
-LaTeX Info: Redefining \sptext on input line 114.
-LaTeX Info: Redefining \. on input line 114.
-LaTeX Info: Redefining \% on input line 114.
-[3 <./Figures/concepto.jpeg>]
-LaTeX Info: Redefining \sptext on input line 122.
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
- [4 <./Figures/pzeem004.jpg> <./Figures/potencia_ej.png>]
-Overfull \hbox (19.66853pt too wide) in paragraph at lines 141--142
+LaTeX Info: Redefining \sptext on input line 125.
+LaTeX Info: Redefining \. on input line 125.
+LaTeX Info: Redefining \% on input line 125.
+ [3 <./Figures/pzeem004.jpg>]
+LaTeX Info: Redefining \sptext on input line 140.
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
+ [4 <./Figures/potencia_ej.png>]
+Overfull \hbox (19.66853pt too wide) in paragraph at lines 154--155
 []\T1/ppl/m/n/10.95 El dis-po-si-ti-vo de-be po-seer co-mo mi-cro-con-tro-la-do
 r prin-ci-pal MSP430F2418. 
  []
 
-LaTeX Info: Redefining \sptext on input line 161.
-LaTeX Info: Redefining \. on input line 161.
-LaTeX Info: Redefining \% on input line 161.
-[5]
-<Figures/dispositivo_empresa.png, id=247, 454.69875pt x 462.22687pt>
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 171.
+<Figures/dispositivo_empresa.png, id=517, 454.69875pt x 462.22687pt>
 File: Figures/dispositivo_empresa.png Graphic file (type png)
 <use Figures/dispositivo_empresa.png>
-Package pdftex.def Info: Figures/dispositivo_empresa.png  used on input line 16
-4.
+Package pdftex.def Info: Figures/dispositivo_empresa.png  used on input line 17
+7.
 (pdftex.def)             Requested size: 227.62204pt x 231.39499pt.
-)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 LaTeX Info: Redefining \sptext on input line 194.
 LaTeX Info: Redefining \. on input line 194.
 LaTeX Info: Redefining \% on input line 194.
+[5])
+LaTeX Info: Redefining \sptext on input line 198.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
  [6 <./Figures/dispositivo_empresa.png>]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (Chapters/Chapter2.tex
 Cap\'{\i }tulo 2.
-<Figures/msp430F2618.png, id=253, 513.41812pt x 447.17062pt>
-File: Figures/msp430F2618.png Graphic file (type png)
-<use Figures/msp430F2618.png>
-Package pdftex.def Info: Figures/msp430F2618.png  used on input line 30.
-(pdftex.def)             Requested size: 113.81102pt x 99.12157pt.
+
+LaTeX Warning: Citation 'msp430slau144j' on page 7 undefined on input line 44.
+
 1: section
 [7
 
 
 
- <./Figures/msp430F2618.png>]
-<Figures/microdatasheet1.png, id=258, 377.91188pt x 416.30531pt>
+]
+<Figures/microdatasheet1.png, id=549, 377.91188pt x 416.30531pt>
 File: Figures/microdatasheet1.png Graphic file (type png)
 <use Figures/microdatasheet1.png>
-Package pdftex.def Info: Figures/microdatasheet1.png  used on input line 43.
+Package pdftex.def Info: Figures/microdatasheet1.png  used on input line 58.
 (pdftex.def)             Requested size: 170.71652pt x 188.05981pt.
-<Figures/PG-LQFP-64-18.png, id=260, 424.58624pt x 338.76563pt>
-File: Figures/PG-LQFP-64-18.png Graphic file (type png)
-<use Figures/PG-LQFP-64-18.png>
-Package pdftex.def Info: Figures/PG-LQFP-64-18.png  used on input line 52.
-(pdftex.def)             Requested size: 227.62204pt x 181.61256pt.
-LaTeX Info: Redefining \sptext on input line 58.
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
- [8 <./Figures/microdatasheet1.png> <./Figures/PG-LQFP-64-18.png>]
-Overfull \hbox (22.92033pt too wide) in paragraph at lines 66--68
-\T1/ppl/m/n/10.95 mien-ta de pro-gra-ma-ción, a es-ta he-rra-mien-ta lo de-no-m
-i-na "FET hard-wa-re JTAG",puede
- []
-
-<Figures/emeesepeFET.jpg, id=268, 752.8125pt x 752.8125pt>
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 80.
+<Figures/emeesepeFET.jpg, id=552, 752.8125pt x 752.8125pt>
 File: Figures/emeesepeFET.jpg Graphic file (type jpg)
 <use Figures/emeesepeFET.jpg>
-Package pdftex.def Info: Figures/emeesepeFET.jpg  used on input line 71.
+Package pdftex.def Info: Figures/emeesepeFET.jpg  used on input line 94.
 (pdftex.def)             Requested size: 284.52756pt x 284.53246pt.
-<Figures/cableJtag.jpg, id=270, 963.6pt x 521.95pt>
-File: Figures/cableJtag.jpg Graphic file (type jpg)
-<use Figures/cableJtag.jpg>
-Package pdftex.def Info: Figures/cableJtag.jpg  used on input line 102.
-(pdftex.def)             Requested size: 341.43306pt x 184.93913pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 108.
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
-[9 <./Figures/emeesepeFET.jpg>]
-<Figures/Jtagfetsch.png, id=276, 609.77812pt x 296.60812pt>
+<Figures/Jtagfetsch.png, id=554, 609.77812pt x 296.60812pt>
 File: Figures/Jtagfetsch.png Graphic file (type png)
 <use Figures/Jtagfetsch.png>
-Package pdftex.def Info: Figures/Jtagfetsch.png  used on input line 111.
+Package pdftex.def Info: Figures/Jtagfetsch.png  used on input line 138.
 (pdftex.def)             Requested size: 284.52756pt x 138.40561pt.
-<Figures/Embeddedworkbench.png, id=278, 725.71124pt x 410.2828pt>
-File: Figures/Embeddedworkbench.png Graphic file (type png)
-<use Figures/Embeddedworkbench.png>
-Package pdftex.def Info: Figures/Embeddedworkbench.png  used on input line 129.
-
-(pdftex.def)             Requested size: 312.9803pt x 176.94403pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 LaTeX Info: Redefining \sptext on input line 141.
 LaTeX Info: Redefining \. on input line 141.
 LaTeX Info: Redefining \% on input line 141.
-[10 <./Figures/cableJtag.jpg> <./Figures/Jtagfetsch.png>])
-LaTeX Info: Redefining \sptext on input line 195.
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
- [11 <./Figures/Embeddedworkbench.png>]
-LaTeX Info: Redefining \sptext on input line 195.
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
- [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+[8 <./Figures/microdatasheet1.png>]
+LaTeX Info: Redefining \sptext on input line 150.
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
+ [9 <./Figures/emeesepeFET.jpg> <./Figures/Jtagfetsch.png>]
+Overfull \hbox (10.08717pt too wide) in paragraph at lines 151--152
+\T1/ppl/m/n/10.95 ple-ji-da-des del pro-to-co-lo JTAG. Ade-más, la bi-blio-te-c
+a pue-de co-nec-tar-se a un MSP430
+ []
 
+<Figures/Embeddedworkbench.png, id=569, 725.71124pt x 410.2828pt>
+File: Figures/Embeddedworkbench.png Graphic file (type png)
+<use Figures/Embeddedworkbench.png>
+Package pdftex.def Info: Figures/Embeddedworkbench.png  used on input line 166.
+
+(pdftex.def)             Requested size: 389.80269pt x 220.37871pt.
+LaTeX Info: Redefining \sptext on input line 179.
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+[10 <./Figures/Embeddedworkbench.png>]
+<Figures/ade7953funcdiagr.png, id=577, 904.88063pt x 539.76656pt>
+File: Figures/ade7953funcdiagr.png Graphic file (type png)
+<use Figures/ade7953funcdiagr.png>
+Package pdftex.def Info: Figures/ade7953funcdiagr.png  used on input line 197.
+(pdftex.def)             Requested size: 389.80269pt x 232.51514pt.
+LaTeX Info: Redefining \sptext on input line 204.
+LaTeX Info: Redefining \. on input line 204.
+LaTeX Info: Redefining \% on input line 204.
+ [11 <./Figures/ade7953funcdiagr.png>]
+<Figures/tramauartade.png, id=586, 502.12593pt x 252.19218pt>
+File: Figures/tramauartade.png Graphic file (type png)
+<use Figures/tramauartade.png>
+Package pdftex.def Info: Figures/tramauartade.png  used on input line 207.
+(pdftex.def)             Requested size: 312.9803pt x 157.20027pt.
+)
+LaTeX Info: Redefining \sptext on input line 199.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+
+[12 <./Figures/tramauartade.png>]
+\openout2 = `Chapters/Chapter3.aux'.
+
+ (Chapters/Chapter3.tex
+Cap\'{\i }tulo 3.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 9.
+<Figures/Placa1v6.png, id=597, 535.2497pt x 391.4625pt>
+File: Figures/Placa1v6.png Graphic file (type png)
+<use Figures/Placa1v6.png>
+Package pdftex.def Info: Figures/Placa1v6.png  used on input line 22.
+(pdftex.def)             Requested size: 312.9803pt x 228.91205pt.
+<Figures/esquema22.png, id=599, 545.03625pt x 462.22687pt>
+File: Figures/esquema22.png Graphic file (type png)
+<use Figures/esquema22.png>
+Package pdftex.def Info: Figures/esquema22.png  used on input line 31.
+(pdftex.def)             Requested size: 227.62204pt x 193.03369pt.
 1: section
 [13
 
 
+
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+LaTeX Info: Redefining \sptext on input line 61.
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [14 <./Figures/Placa1v6.png> <./Figures/esquema22.png>]
+<Figures/alimentacion1.png, id=613, 1145.78062pt x 249.93375pt>
+File: Figures/alimentacion1.png Graphic file (type png)
+<use Figures/alimentacion1.png>
+Package pdftex.def Info: Figures/alimentacion1.png  used on input line 65.
+(pdftex.def)             Requested size: 341.43306pt x 74.4773pt.
+<Figures/alimentacion2.png, id=614, 831.105pt x 540.51938pt>
+File: Figures/alimentacion2.png Graphic file (type png)
+<use Figures/alimentacion2.png>
+Package pdftex.def Info: Figures/alimentacion2.png  used on input line 75.
+(pdftex.def)             Requested size: 284.52756pt x 185.04428pt.
+<Figures/comaislado1.png, id=615, 1133.73563pt x 549.55313pt>
+File: Figures/comaislado1.png Graphic file (type png)
+<use Figures/comaislado1.png>
+Package pdftex.def Info: Figures/comaislado1.png  used on input line 82.
+(pdftex.def)             Requested size: 284.52756pt x 137.91623pt.
+LaTeX Info: Redefining \sptext on input line 95.
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+ [15 <./Figures/alimentacion1.png> <./Figures/alimentacion2.png>]
+<Figures/JTAG1.png, id=622, 608.2725pt x 292.84406pt>
+File: Figures/JTAG1.png Graphic file (type png)
+<use Figures/JTAG1.png>
+Package pdftex.def Info: Figures/JTAG1.png  used on input line 98.
+(pdftex.def)             Requested size: 341.43306pt x 164.3803pt.
+<Figures/RSS232_1.png, id=623, 1001.24063pt x 575.90157pt>
+File: Figures/RSS232_1.png Graphic file (type png)
+<use Figures/RSS232_1.png>
+Package pdftex.def Info: Figures/RSS232_1.png  used on input line 108.
+(pdftex.def)             Requested size: 341.43306pt x 196.38391pt.
+<Figures/RSS485_1.png, id=624, 1079.53313pt x 495.35063pt>
+File: Figures/RSS485_1.png Graphic file (type png)
+<use Figures/RSS485_1.png>
+Package pdftex.def Info: Figures/RSS485_1.png  used on input line 115.
+(pdftex.def)             Requested size: 341.43306pt x 156.67117pt.
+<Figures/rele1.png, id=626, 1142.76938pt x 460.72125pt>
+File: Figures/rele1.png Graphic file (type png)
+<use Figures/rele1.png>
+Package pdftex.def Info: Figures/rele1.png  used on input line 126.
+(pdftex.def)             Requested size: 341.43306pt x 137.64801pt.
+<Figures/salida420.png, id=627, 576.65437pt x 526.96875pt>
+File: Figures/salida420.png Graphic file (type png)
+<use Figures/salida420.png>
+Package pdftex.def Info: Figures/salida420.png  used on input line 136.
+(pdftex.def)             Requested size: 341.43306pt x 312.02655pt.
+LaTeX Info: Redefining \sptext on input line 145.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
+ [16 <./Figures/comaislado1.png> <./Figures/JTAG1.png>]
+LaTeX Info: Redefining \sptext on input line 145.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
+ [17 <./Figures/RSS232_1.png> <./Figures/RSS485_1.png> <./Figures/rele1.png>]
+<Figures/ade7953.png, id=641, 231.86626pt x 220.57407pt>
+File: Figures/ade7953.png Graphic file (type png)
+<use Figures/ade7953.png>
+Package pdftex.def Info: Figures/ade7953.png  used on input line 148.
+(pdftex.def)             Requested size: 284.52756pt x 270.69528pt.
+<Figures/medicionvoltaje.png, id=642, 656.4525pt x 570.63188pt>
+File: Figures/medicionvoltaje.png Graphic file (type png)
+<use Figures/medicionvoltaje.png>
+Package pdftex.def Info: Figures/medicionvoltaje.png  used on input line 162.
+(pdftex.def)             Requested size: 227.62204pt x 197.86082pt.
+<Figures/medicioncorriente.png, id=643, 1084.05pt x 501.37312pt>
+File: Figures/medicioncorriente.png Graphic file (type png)
+<use Figures/medicioncorriente.png>
+Package pdftex.def Info: Figures/medicioncorriente.png  used on input line 171.
+
+(pdftex.def)             Requested size: 341.43306pt x 157.91042pt.
+LaTeX Info: Redefining \sptext on input line 179.
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+ [18 <./Figures/salida420.png>]
+LaTeX Info: Redefining \sptext on input line 192.
+LaTeX Info: Redefining \. on input line 192.
+LaTeX Info: Redefining \% on input line 192.
+ [19 <./Figures/ade7953.png> <./Figures/medicionvoltaje.png>]
+<Figures/conectores2.png, id=654, 448.67625pt x 472.01344pt>
+File: Figures/conectores2.png Graphic file (type png)
+<use Figures/conectores2.png>
+Package pdftex.def Info: Figures/conectores2.png  used on input line 195.
+(pdftex.def)             Requested size: 341.43306pt x 359.20209pt.
+LaTeX Info: Redefining \sptext on input line 201.
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
+ [20 <./Figures/medicioncorriente.png> <./Figures/conectores2.png>]
+<Figures/estandaresmayer.png, id=660, 728.7225pt x 331.99031pt>
+File: Figures/estandaresmayer.png Graphic file (type png)
+<use Figures/estandaresmayer.png>
+Package pdftex.def Info: Figures/estandaresmayer.png  used on input line 204.
+(pdftex.def)             Requested size: 312.9803pt x 142.58588pt.
+<Figures/PCBfront.png, id=665, 681.29532pt x 532.99126pt>
+File: Figures/PCBfront.png Graphic file (type png)
+<use Figures/PCBfront.png>
+Package pdftex.def Info: Figures/PCBfront.png  used on input line 216.
+(pdftex.def)             Requested size: 312.9803pt x 244.85364pt.
+<Figures/PCBback.png, id=667, 684.30656pt x 532.99126pt>
+File: Figures/PCBback.png Graphic file (type png)
+<use Figures/PCBback.png>
+Package pdftex.def Info: Figures/PCBback.png  used on input line 225.
+(pdftex.def)             Requested size: 312.9803pt x 243.78012pt.
+LaTeX Info: Redefining \sptext on input line 236.
+LaTeX Info: Redefining \. on input line 236.
+LaTeX Info: Redefining \% on input line 236.
+ [21 <./Figures/estandaresmayer.png> <./Figures/PCBfront.png>]
+<Figures/placaarmada1.jpeg, id=675, 487.8225pt x 659.46375pt>
+File: Figures/placaarmada1.jpeg Graphic file (type jpg)
+<use Figures/placaarmada1.jpeg>
+Package pdftex.def Info: Figures/placaarmada1.jpeg  used on input line 244.
+(pdftex.def)             Requested size: 227.62204pt x 307.7141pt.
+<Figures/parche2.jpg, id=677, 305.64188pt x 265.74281pt>
+File: Figures/parche2.jpg Graphic file (type jpg)
+<use Figures/parche2.jpg>
+Package pdftex.def Info: Figures/parche2.jpg  used on input line 253.
+(pdftex.def)             Requested size: 227.62204pt x 197.90767pt.
+<Figures/protofinal.jpeg, id=679, 647.41875pt x 527.72156pt>
+File: Figures/protofinal.jpeg Graphic file (type jpg)
+<use Figures/protofinal.jpeg>
+Package pdftex.def Info: Figures/protofinal.jpeg  used on input line 264.
+(pdftex.def)             Requested size: 389.80269pt x 317.73856pt.
+LaTeX Info: Redefining \sptext on input line 277.
+LaTeX Info: Redefining \. on input line 277.
+LaTeX Info: Redefining \% on input line 277.
+ [22 <./Figures/PCBback.png>]
+LaTeX Info: Redefining \sptext on input line 281.
+LaTeX Info: Redefining \. on input line 281.
+LaTeX Info: Redefining \% on input line 281.
+ [23 <./Figures/placaarmada1.jpeg> <./Figures/parche2.jpg>]
+LaTeX Info: Redefining \sptext on input line 304.
+LaTeX Info: Redefining \. on input line 304.
+LaTeX Info: Redefining \% on input line 304.
+ [24 <./Figures/protofinal.jpeg>]
+<Figures/Diagramadeprograma.jpeg, id=694, 424.7067pt x 590.4459pt>
+File: Figures/Diagramadeprograma.jpeg Graphic file (type jpg)
+<use Figures/Diagramadeprograma.jpeg>
+Package pdftex.def Info: Figures/Diagramadeprograma.jpeg  used on input line 30
+9.
+(pdftex.def)             Requested size: 312.9803pt x 435.13023pt.
+LaTeX Info: Redefining \sptext on input line 318.
+LaTeX Info: Redefining \. on input line 318.
+LaTeX Info: Redefining \% on input line 318.
+ [25 <./Figures/Diagramadeprograma.jpeg>]
+<Figures/ade7uartread.png, id=701, 754.31813pt x 463.7325pt>
+File: Figures/ade7uartread.png Graphic file (type png)
+<use Figures/ade7uartread.png>
+Package pdftex.def Info: Figures/ade7uartread.png  used on input line 325.
+(pdftex.def)             Requested size: 389.80269pt x 239.6351pt.
+<Figures/ade7uartwrite.png, id=703, 931.98187pt x 266.49562pt>
+File: Figures/ade7uartwrite.png Graphic file (type png)
+<use Figures/ade7uartwrite.png>
+Package pdftex.def Info: Figures/ade7uartwrite.png  used on input line 334.
+(pdftex.def)             Requested size: 312.9803pt x 89.49312pt.
+LaTeX Info: Redefining \sptext on input line 340.
+LaTeX Info: Redefining \. on input line 340.
+LaTeX Info: Redefining \% on input line 340.
+ [26 <./Figures/ade7uartread.png> <./Figures/ade7uartwrite.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 408.
+
+<Figures/MenuUsuario1.png, id=713, 391.4625pt x 286.06876pt>
+File: Figures/MenuUsuario1.png Graphic file (type png)
+<use Figures/MenuUsuario1.png>
+Package pdftex.def Info: Figures/MenuUsuario1.png  used on input line 459.
+(pdftex.def)             Requested size: 312.9803pt x 228.72873pt.
+LaTeX Info: Redefining \sptext on input line 473.
+LaTeX Info: Redefining \. on input line 473.
+LaTeX Info: Redefining \% on input line 473.
+[27]
+LaTeX Info: Redefining \sptext on input line 473.
+LaTeX Info: Redefining \. on input line 473.
+LaTeX Info: Redefining \% on input line 473.
+ [28]
+Overfull \hbox (12.66675pt too wide) in paragraph at lines 478--493
+[][]
+ []
+
+LaTeX Info: Redefining \sptext on input line 498.
+LaTeX Info: Redefining \. on input line 498.
+LaTeX Info: Redefining \% on input line 498.
+[29 <./Figures/MenuUsuario1.png>]
+<Figures/MenuCalib1.png, id=731, 337.26pt x 298.11375pt>
+File: Figures/MenuCalib1.png Graphic file (type png)
+<use Figures/MenuCalib1.png>
+Package pdftex.def Info: Figures/MenuCalib1.png  used on input line 501.
+(pdftex.def)             Requested size: 312.9803pt x 276.65611pt.
+)
+LaTeX Info: Redefining \sptext on input line 200.
+LaTeX Info: Redefining \. on input line 200.
+LaTeX Info: Redefining \% on input line 200.
+ [30 <./Figures/MenuCalib1.png>]
+\openout2 = `Chapters/Chapter4.aux'.
+
+
+(Chapters/Chapter4.tex
+Cap\'{\i }tulo 4.
+<Figures/osciloscope.jpg, id=738, 487.8225pt x 460.72125pt>
+File: Figures/osciloscope.jpg Graphic file (type jpg)
+<use Figures/osciloscope.jpg>
+Package pdftex.def Info: Figures/osciloscope.jpg  used on input line 32.
+(pdftex.def)             Requested size: 227.62204pt x 214.97835pt.
+1: section
+[31
+
+
+
+ <./Figures/osciloscope.jpg>]
+<Figures/ADEresponse.jpg, id=746, 423.08063pt x 332.74312pt>
+File: Figures/ADEresponse.jpg Graphic file (type jpg)
+<use Figures/ADEresponse.jpg>
+Package pdftex.def Info: Figures/ADEresponse.jpg  used on input line 43.
+(pdftex.def)             Requested size: 284.52756pt x 223.77954pt.
+<Figures/ModbusTest.jpg, id=748, 380.92313pt x 188.20313pt>
+File: Figures/ModbusTest.jpg Graphic file (type jpg)
+<use Figures/ModbusTest.jpg>
+Package pdftex.def Info: Figures/ModbusTest.jpg  used on input line 56.
+(pdftex.def)             Requested size: 284.52756pt x 140.5805pt.
+LaTeX Info: Redefining \sptext on input line 67.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+ [32 <./Figures/ADEresponse.jpg> <./Figures/ModbusTest.jpg>]
+<Figures/BancoCalib.jpg, id=754, 782.925pt x 407.27156pt>
+File: Figures/BancoCalib.jpg Graphic file (type jpg)
+<use Figures/BancoCalib.jpg>
+Package pdftex.def Info: Figures/BancoCalib.jpg  used on input line 81.
+(pdftex.def)             Requested size: 389.80269pt x 202.77145pt.
+<Figures/HojadeAplicacion.png, id=756, 978.65625pt x 641.39626pt>
+File: Figures/HojadeAplicacion.png Graphic file (type png)
+<use Figures/HojadeAplicacion.png>
+Package pdftex.def Info: Figures/HojadeAplicacion.png  used on input line 90.
+(pdftex.def)             Requested size: 341.43306pt x 223.76782pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[][][][][]$\T1/ppl/m/n/9 https : / / www . analog . com / media / en / technica
+l-[]documentation / application-[]notes / AN-[]1118 .
+ []
+
+<Figures/ConectorAlim.jpeg, id=761, 355.3275pt x 371.88937pt>
+File: Figures/ConectorAlim.jpeg Graphic file (type jpg)
+<use Figures/ConectorAlim.jpeg>
+Package pdftex.def Info: Figures/ConectorAlim.jpeg  used on input line 118.
+(pdftex.def)             Requested size: 227.62204pt x 238.23537pt.
+LaTeX Info: Redefining \sptext on input line 127.
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+[33 <./Figures/BancoCalib.jpg>]
+LaTeX Info: Redefining \sptext on input line 129.
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
+ [34 <./Figures/HojadeAplicacion.png> <./Figures/ConectorAlim.jpeg>]
+<Figures/ConRS232.jpeg, id=773, 322.95656pt x 476.53032pt>
+File: Figures/ConRS232.jpeg Graphic file (type jpg)
+<use Figures/ConRS232.jpeg>
+Package pdftex.def Info: Figures/ConRS232.jpeg  used on input line 165.
+(pdftex.def)             Requested size: 227.62204pt x 335.85939pt.
+LaTeX Info: Redefining \sptext on input line 211.
+LaTeX Info: Redefining \. on input line 211.
+LaTeX Info: Redefining \% on input line 211.
+ [35 <./Figures/ConRS232.jpeg>]
+<Figures/polyswitchyrele.jpg, id=781, 172.39406pt x 194.22563pt>
+File: Figures/polyswitchyrele.jpg Graphic file (type jpg)
+<use Figures/polyswitchyrele.jpg>
+Package pdftex.def Info: Figures/polyswitchyrele.jpg  used on input line 214.
+(pdftex.def)             Requested size: 227.62204pt x 256.44974pt.
+)
+LaTeX Info: Redefining \sptext on input line 201.
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
+ [36 <./Figures/polyswitchyrele.jpg>]
+\openout2 = `Chapters/Chapter5.aux'.
+
+ (Chapters/Chapter5.tex
+Cap\'{\i }tulo 5.
+1: section
+[37
+
+
+
+])
+LaTeX Info: Redefining \sptext on input line 202.
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
+ [38]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+
+1: section
+[39
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
  (memoria.aux
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- (Chapters/Chapter1.aux) (Chapters/Chapter2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
+ (Chapters/Chapter1.aux) (Chapters/Chapter2.aux)
+(Chapters/Chapter3.aux) (Chapters/Chapter4.aux) (Chapters/Chapter5.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: D09136664AC7B6BF26495071CC0454B7;1276.
+(rerunfilecheck)             Checksum: 0AEF14645ED514F1648B966ECC04A692;4475.
 
 
 LaTeX Warning: There were undefined references.
@@ -1529,23 +1942,41 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33411 strings out of 492969
- 689943 string characters out of 3126586
- 951932 words of memory out of 3000000
- 36866 multiletter control sequences out of 15000+200000
- 576621 words of font info for 86 fonts, out of 3000000 for 9000
+ 34766 strings out of 492969
+ 710981 string characters out of 3126586
+ 971247 words of memory out of 3000000
+ 37969 multiletter control sequences out of 15000+200000
+ 591666 words of font info for 127 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
- 57i,20n,77p,798b,2145s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/upl
-b8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palat
-ino/uplb8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
-w/palatino/uplr8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/urw/palatino/uplr8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on memoria.pdf (27 pages, 2055345 bytes).
+ 60i,21n,77p,979b,2628s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
+C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/urw/palatino/uplb8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/herda/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/herda/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/herda/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/herda/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on memoria.pdf (53 pages, 5386617 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 881 PDF objects out of 1000 (max. 8388607)
+ 195 named destinations out of 1000 (max. 500000)
+ 674 words of extra memory for PDF output out of 10000 (max. 10000000)
 

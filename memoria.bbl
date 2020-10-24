@@ -17,44 +17,14 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{book:1689974}{book}{}
-    \name{author}{1}{}{%
-      {{hash=SR}{%
-         family={Sedha},
-         familyi={S\bibinitperiod},
-         given={R.S.},
-         giveni={R\bibinitperiod},
-      }}%
+  \entry{Servaind}{manual}{}
+    \list{organization}{1}{%
+      {SERVAIND S.A.}%
     }
-    \list{publisher}{1}{%
-      {S Chand \& Co Ltd}%
-    }
-    \strng{namehash}{SR1}
-    \strng{fullhash}{SR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{isbn}{8121997755, 978-8121997751}
-    \field{title}{Electronic Measurement and Instrumentation}
-    \field{year}{2013}
-  \endentry
-
-  \entry{NIDataAdquisition}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=N}{%
-         family={{NationalInstrument}},
-         familyi={N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{N1}
-    \strng{fullhash}{N1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{note}{Disponible: 2019-11-04}
-    \field{title}{¿Qué es Adquisición de Datos?}
     \verb{url}
-    \verb https://www.ni.com/data-acquisition/what-is/esa/
+    \verb http://www.servaind.com/
     \endverb
-    \field{year}{2019}
+    \field{year}{2020}
   \endentry
 
   \entry{articleDM}{article}{}
@@ -138,21 +108,56 @@
     \field{year}{2004}
   \endentry
 
-  \entry{book:28601}{book}{}
+  \entry{planTrabajo}{manual}{}
     \name{author}{1}{}{%
-      {{hash=PS}{%
-         family={P.},
-         familyi={P\bibinitperiod},
-         given={Sangil},
-         giveni={S\bibinitperiod},
+      {{hash=FH}{%
+         family={Ferreyra},
+         familyi={F\bibinitperiod},
+         given={Hernán},
+         giveni={H\bibinitperiod},
       }}%
     }
-    \strng{namehash}{PS1}
-    \strng{fullhash}{PS1}
+    \list{organization}{1}{%
+      {LSE}%
+    }
+    \strng{namehash}{FH1}
+    \strng{fullhash}{FH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Principles of Sigma Delta Conversion for Analog to Digital
-  Converters}
+    \field{note}{Plan de Proyecto del Trabajo Final de Carrera de
+  Especialización de Sistemas Embebidos}
+    \field{title}{Medidor de energía eléctrica industrial con telemetría.}
+    \verb{url}
+    \verb http://laboratorios.fi.uba.ar/lse/tesis.html
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{modulopezetaeme}{manual}{}
+    \list{organization}{1}{%
+      {Peacefair}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{PZEM-004T V30 User Manual}
+    \verb{url}
+    \verb https://innovatorsguru.com/wp-content/uploads/2019/06/PZEM-004T-V3.0-
+    \verb Datasheet-User-Manual.pdf
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{msp430freff}{manual}{}
+    \list{organization}{1}{%
+      {Texas Instrument}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REVISED MAY 2020}
+    \field{number}{SLAS541L}
+    \field{title}{MSP430F261x, MSP430F241x Mixed-Signal Microcontrollers}
+    \verb{url}
+    \verb https://www.ti.com/lit/ds/symlink/msp430f2618.pdf
+    \endverb
+    \field{year}{2007}
   \endentry
 
   \entry{JTAGintel}{manual}{}
@@ -191,7 +196,114 @@
     \verb{url}
     \verb https://www.ti.com/lit/ug/slau656b/slau656b.pdf?ts=1594684069406
     \endverb
-    \field{year}{015}
+    \field{year}{2015}
+  \endentry
+
+  \entry{badawy2002system}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BW}{%
+         family={Badawy},
+         familyi={B\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=JG}{%
+         family={Julien},
+         familyi={J\bibinitperiod},
+         given={G.A.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer US}%
+    }
+    \strng{namehash}{BWJG1}
+    \strng{fullhash}{BWJG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9781402072543}
+    \field{series}{The Springer International Series in Engineering and
+  Computer Science}
+    \field{title}{System-on-Chip for Real-Time Applications}
+    \verb{url}
+    \verb https://books.google.com.ar/books?id=Ha76NqrqPVIC
+    \endverb
+    \field{year}{2002}
+  \endentry
+
+  \entry{drury2001control}{book}{}
+    \name{author}{5}{}{%
+      {{hash=DB}{%
+         family={Drury},
+         familyi={D\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DW}{%
+         family={Drury},
+         familyi={D\bibinitperiod},
+         given={W.H.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=FCT}{%
+         family={(Firm)},
+         familyi={F\bibinitperiod},
+         given={Control\bibnamedelima Techniques},
+         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=PCTD}{%
+         family={Plc},
+         familyi={P\bibinitperiod},
+         given={Control Techniques\bibnamedelima Drives},
+         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=oEEI}{%
+         prefix={of},
+         prefixi={o\bibinitperiod},
+         family={Electrical\bibnamedelima Engineers},
+         familyi={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={Institution},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institution of Engineering}%
+      {Technology}%
+    }
+    \strng{namehash}{DB+1}
+    \strng{fullhash}{DBDWFCTPCTDEEIo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780852967935}
+    \field{series}{IEE Power Series}
+    \field{title}{Control Techniques Drives and Controls Handbook}
+    \verb{url}
+    \verb https://books.google.com.ar/books?id=vDQHzeEmSfUC
+    \endverb
+    \field{year}{2001}
+  \endentry
+
+  \entry{freegithubb}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=tCWD}{%
+         prefix={techn.},
+         prefixi={t\bibinitperiod},
+         family={Christian\bibnamedelima Walter},
+         familyi={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={Dr.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CWDt1}
+    \strng{fullhash}{CWDt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Freemodbus}
+    \verb{url}
+    \verb https://github.com/cwalter-at/freemodbus
+    \endverb
+    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput

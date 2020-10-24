@@ -1,0 +1,151 @@
+% Appendix Template
+
+
+\chapter{Calibración Medidor} % Main appendix title
+
+\label{AppendixB} % Change X to a consecutive letter; for referencing this appendix elsewhere, use \ref{AppendixX}
+\definecolor{mygreen}{RGB}{40, 100, 60}
+
+\section{Menú de Calibración del equipo de medición}
+
+
+A continuación se muestra el menú de calibración como aparece en el menú serie:
+
+\textcolor{mygreen}{Menú Principal}
+
+\textcolor{blue}{1: Visualizador de variables}
+
+\textcolor{blue}{2: Editor de resistencias en uso}
+
+\textcolor{blue}{3: Editor de registros de ganancia}
+
+\textcolor{blue}{4: Editor de registros de calibración}
+
+\textcolor{blue}{5. Editor de salida 4 -20 mA}
+
+\textcolor{blue}{D: Aplicar valores por defecto globalmente.}
+
+\textcolor{blue}{G: Guarda configuración.}
+
+\textcolor{blue}{ESC: Abandonar terminal.}
+
+\subsection{Opción 2: Editor de resistencias en uso}
+Lo primero que se deberá ingresar en el menú son los valores de las resistencias que se encuentran el el dispositivo.
+
+\begin{itemize}
+\item En la opción “1.Resistores de VP - VN (kilo ohms)“ inserte el valor del resistor en kilohms, en números enteros, de la resistencia que se encuentra en la parte de medicion de voltaje.
+
+\item En la opción “2.Resistor Shunt (mili ohms)“ se ingresa el valor del resistor shunt en miliohms, en números enteros, del shunt que se encuentra en la medición de corriente.
+\end{itemize}
+
+
+\subsection{Opción 3: Editor de registros de ganancia}
+
+Luego de ingresar los valores de resistencia, el software puede calcular correctamente los parámetros medidos, sin embargo se puede acotar los límites máximos a medir, y definir qué valores se podrán medir modificando los registros de ganancia. Cuanto más alto sea el valor de ganancia que se seleccione más acotado será el rango posible de medición.
+
+
+
+
+Para la opción "Elija ganancia para PGA\_ V":
+Se debe elegir la ganancia para la tensión entre las opciones disponibles, es decir seleccionar el valor de  PGA\_ V  que puede ser como mínima una ganancia de 1 y como máximo una ganancia de 16.
+Por ejemplo para una resistencia VP -  VN de 990k ohm y una ganancia de PGA\_ V igual a 1 (uno) el dispositivo podra medir como maximo 495Voltios. Por ende el siguiente paso es:
+
+\begin{itemize}
+\item En la opción \textquotedblleft Elija ganancia para PGA\_ V\textquotedblright , elija una de las ganancias disponibles.
+\end{itemize}
+
+Para la opción \textquotedblleft Elija ganancia para PGA\_ IA\textquotedblright:
+Se debe elegir la ganancia para la tensión entre las opciones disponibles, es decir seleccionar el valor de  PGA\_ I  que puede ser como mínima una ganancia de 2 y como máximo una ganancia de 22.
+Por ejemplo para una resistencia 0.100 ohm   y una ganancia de PGA\_ IA igual a 1 (uno) el dispositivo podra medir como maximo 2,5A . Por ende el siguiente paso es:
+
+\begin{itemize}
+\item En la opción "Elija ganancia para PGA\_ IA” , elija una de las ganancias disponibles.
+
+\end{itemize}
+
+\subsection{Opción 4: Editor de registros de calibración}
+
+Una vez definidas las ganancias, se procede a calibrar las variables dentro del rango mostrado en el menú anterior. Para calibrar el voltaje seleccionamos la primera opción. En esta opción se pedirá que ingrese un valor y se mostrará un número sin unidad, este número es para tener una referencia de que valor aproximado se debe ingresar pues el software siempre comparará la magnitud que se ingresa al hardware y el número que se ingresa en este menú, sin contar con la referencia mostrada. Sin embargo recomiendo seguir la referencia. Entonces:
+
+\begin{itemize}
+\item Se ingresa a la opción "1.Calibrar Voltaje”, aquí se debe ingresar numéricamente el valor de voltaje que se inyecte en el puerto de medición VP -VN de la placa, el primer valor debe ser un 10\% del valor máximo admisible por la ganancia del menú previo.
+\item Luego se deben ingresar otros 3 valores diferentes, de la misma forma, inyectando al hardware y escribiendo en el software.
+\item Finalmente el 5 (quinto) valor a ingresar debería ser uno cercano al valor máximo del rango admisible, se debe inyectar esta magnitud al hardware y escribirla en el software.
+\end{itemize}
+
+En este caso donde se editan los registros se pueden utilizar comas al ingresar variables.
+
+Una vez calibrado el voltaje, se puede repetir el paso o avanzar a calibrar la corriente. El menu de calibracion de corriente funciona de igual manera que el de voltaje, si sale del menú en medio del proceso se pierde todo el proceso de calibración y se debe comenzar devuelta, por lo que si se comete un error al ingresar algún dato puede salir para no guardar. Entonces:
+
+\begin{itemize}
+\item Se ingresa a la opción "2.Calibrar Corriente", aquí se debe ingresar numéricamente el valor de corriente que se inyecte en el puerto de medición de corriente de la placa, el primer valor debe ser un 10\% del valor máximo admisible por la ganancia del menú previo.
+
+\item Luego se deben ingresar otros 3 valores diferentes, de la misma forma, inyectando al hardware y escribiendo en el software.
+
+\item Finalmente el 5(quinto) valor a ingresar deberia ser uno cercano al valor máximo del rango admisible, se debe inyectar esta magnitud al hardware y escribirla en el software.
+\end{itemize}
+
+La siguiente variable a calibrar es la potencia,  aunque probablemente con calibrar las variables anteriores sea suficiente. Entonces el siguiente paso:
+
+\begin{itemize}
+\item Se ingresa a la opción "3.Calibrar Potencia", aquí se debe ingresar numéricamente el valor de potencia activa que debería poder medirse, se debe ingresar diversos valores cinco veces.
+\end{itemize}
+
+\subsection{Opción 5: Menu - Calibración de salida 4-20 mA}
+
+En este menú se puede editar los puntos de salida del enlace de corriente 4-20mA de manera manual. Se selecciona el punto de salida, ya sea el límite inferior 4mA o el superior 20mA , y luego se puede aumentar o disminuir la corriente para que la salida coincida verdaderamente con el valor esperado.
+
+En la parte "1. Ajustar puntos salida de corriente":
+
+\begin{itemize}
+\item En "1. Ajustar puntos salida de corriente" , selecciona  “1.  Ajustar salida a 4 mA” de aquí se debe medir la salida analogica con un instrumento de medición secundario y luego hacer variar la magnitud con las opciones disponibles hasta que coincida con los 4 miliamperes correspondientes.
+
+\item En "1. Ajustar puntos salida de corriente" , selecciona  “2. Ajustar salida a 20 mA” de aquí se debe medir la salida analogica con un instrumento de medición secundario y luego hacer variar la magnitud con las opciones disponibles hasta que coincida con los 20 miliamperes correspondientes.
+Después de calibrar la salida se puede verificar que los valores sean adecuados en la opción “2. Verificar puntos salida de corriente”
+
+\item En  la opción "2. Verificar puntos salida de corriente" se ingresa en cada etapa el valor medido . Al ingresar todos los valores se muestra el error de la salida para 4 mA, 12 mA y 20 mA.
+\end{itemize}
+
+
+
+\section{Resumen}
+%Ecos del grado  \textdegree .
+ 
+2: Editor de resistencias en uso
+\begin{enumerate}
+\item En la opción “1.Resistores de VP - VN (kilo ohms)“ inserte el valor del resistor en kilohms, en números enteros, de la resistencia que se encuentra en la parte de medicion de voltaje.
+\item En la opción “2.Resistor Shunt (mili ohms)“ se ingresa el valor del resistor shunt en miliohms, en números enteros, del shunt que se encuentra en la medición de corriente.
+\end{enumerate}
+
+
+3: Editor de registros de ganancia
+\begin{enumerate}
+\setcounter{enumi}{2}
+\item En la opción \textquotedblleft Elija ganancia para PGA\_ V\textquotedblright , elija una de las ganancias disponibles.
+\item En la opción \textquotedblleft Elija ganancia para PGA\_ IA\textquotedblright , elija una de las ganancias disponibles.
+\end{enumerate}
+
+
+4: Editor de registros de calibración
+\begin{enumerate}
+\setcounter{enumi}{4}
+\item Se ingresa a la opción ""1.Calibrar Voltaje”, aquí se debe ingresar numéricamente el valor de voltaje que se inyecte en el puerto de medición VP -VN de la placa, el primer valor debe ser un 10% del valor máximo admisible por la ganancia del menú previo.
+\item Luego se deben ingresar otros 3 valores diferentes, de la misma forma, inyectando al hardware y escribiendo en el software.
+\item Finalmente el 5 (quinto) valor a ingresar deberia ser uno cercano al valor máximo del rango admisible, se debe inyectar esta magnitud al hardware y escribirla en el software.
+\item Se ingresa a la opción "2.Calibrar Corriente", aquí se debe ingresar numéricamente el valor de corriente que se inyecte en el puerto de medición de corriente de la placa, el primer valor debe ser un 10% del valor máximo admisible por la ganancia del menú previo.
+\item Luego se deben ingresar otros 3 valores diferentes, de la misma forma, inyectando al hardware y escribiendo en el software.
+\item Finalmente el 5 (quinto) valor a ingresar deberia ser uno cercano al valor máximo del rango admisible, se debe inyectar esta magnitud al hardware y escribirla en el software.
+\item Se ingresa a la opción "3.Calibrar Potencia", aquí se debe ingresar numéricamente el valor de potencia activa que debería poder medirse, se debe ingresar diversos valores cinco veces.
+\end{enumerate}
+
+
+5: Menu - Calibración de salida 4-20 mA
+\begin{enumerate}
+\setcounter{enumi}{11}
+\item En "1. Ajustar puntos salida de corriente" , selecciona  “1.  Ajustar salida a 4 mA” de aquí se debe medir la salida analogica con un instrumento de medición secundario y luego hacer variar la magnitud con las opciones disponibles hasta que coincida con los 4 miliamperes correspondientes.
+\item En "1. Ajustar puntos salida de corriente" , selecciona  “2. Ajustar salida a 20 mA” de aquí se debe medir la salida analogica con un instrumento de medición secundario y luego hacer variar la magnitud con las opciones disponibles hasta que coincida con los 20 miliamperes correspondientes.
+\item En  la opción "2. Verificar puntos salida de corriente" se ingresa en cada etapa el valor medido . Al ingresar todos los valores se muestra el error de la salida para 4 mA, 12 mA y 20 mA.
+\end{enumerate}
+
+
+

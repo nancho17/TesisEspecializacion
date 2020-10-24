@@ -3,18 +3,56 @@
 \contentsline {chapter}{Resumen}{\es@scroman {iii}}{section*.1}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n general}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Descripci\IeC {\'o}n general del trabajo y conceptos clave}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Mediciones el\IeC {\'e}ctricas digitales}{1}{subsection.1.1.1}
-\contentsline {section}{\numberline {1.2}Estructura del trabajo}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Motivaci\IeC {\'o}n}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}Requerimientos del trabajo}{5}{section.1.4}
-\contentsline {section}{\numberline {1.5}Objetivos y alcance}{5}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Objetivos del desarrollo}{5}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Alcances}{6}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.2}Medici\IeC {\'o}n de potencia el\IeC {\'e}ctrica}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Estructura del trabajo}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Motivaci\IeC {\'o}n}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Requerimientos del trabajo}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}Objetivos y alcance}{5}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Objetivos del desarrollo}{5}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Alcances}{6}{subsection.1.6.2}
 \contentsline {chapter}{\numberline {2}Introducci\IeC {\'o}n espec\IeC {\'\i }fica}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Microcontrolador principal}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Herramientas de programaci\IeC {\'o}n}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}FET debugger}{9}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Entorno de desarrollo}{10}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Circuito integrado de medici\IeC {\'o}n}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4} Libreria Externa - Free Modbus}{12}{section.2.4}
-\contentsline {chapter}{Bibliograf\'{\i }a}{13}{appendix*.19}
+\contentsline {section}{\numberline {2.2}Herramientas de programaci\IeC {\'o}n}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}FET \textit {debugger}}{8}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Entorno de desarrollo}{9}{subsection.2.2.2}
+\contentsline {subsubsection}{ El MSP Debug Stack}{9}{section*.15}
+\contentsline {subsubsection}{Entorno de desarrollo}{10}{section*.16}
+\contentsline {section}{\numberline {2.3}Circuito integrado de medici\IeC {\'o}n}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4} Biblioteca Externa - Free Modbus}{12}{section.2.4}
+\contentsline {chapter}{\numberline {3}Dise\IeC {\~n}o e implementaci\IeC {\'o}n}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Desarrollo de \textit {hardware}}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Estructura Planteada }{13}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Componentes esenciales}{13}{subsection.3.1.2}
+\contentsline {subsubsection}{Circuito de alimentaci\IeC {\'o}n}{15}{section*.22}
+\contentsline {subsubsection}{Circuito de aislaci\IeC {\'o}n o de cambio de nivel}{15}{section*.24}
+\contentsline {subsubsection}{Circuito de adaptaci\IeC {\'o}n de microcontrolador}{15}{section*.27}
+\contentsline {subsubsection}{Circuito de comunicaci\IeC {\'o}n por puerto}{16}{section*.29}
+\contentsline {subsubsection}{Circuito de rel\IeC {\'e}}{16}{section*.32}
+\contentsline {subsubsection}{Circuito de salida anal\IeC {\'o}gica}{16}{section*.34}
+\contentsline {subsubsection}{Circuito de medici\IeC {\'o}n}{17}{section*.36}
+\contentsline {subsection}{\numberline {3.1.3}Esquema anal\IeC {\'o}gico de medici\IeC {\'o}n }{18}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Fabricaci\IeC {\'o}n}{19}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Dise\IeC {\~n}o logrado}{21}{section.3.2}
+\contentsline {section}{\numberline {3.3}Desarrollo de \textit {software}}{22}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Software previos de base}{24}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Software del fabricante utilizados}{24}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Especificaciones del software desarrollado}{25}{subsection.3.3.3}
+\contentsline {subsubsection}{Comunicaci\IeC {\'o}n con el ADE7953}{26}{section*.48}
+\contentsline {subsection}{\numberline {3.3.4}Funcionalidades del software}{27}{subsection.3.3.4}
+\contentsline {subsubsection}{Protocolo Modbus }{29}{section*.53}
+\contentsline {subsubsection}{Men\IeC {\'u} de calibraci\IeC {\'o}n }{29}{section*.55}
+\contentsline {chapter}{\numberline {4}Ensayos y resultados}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Pruebas Realizadas}{31}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Pruebas de comunicaci\IeC {\'o}n con el ADE7953}{31}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Testeo del protocolo Modbus}{32}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Testeo de la calibraci\IeC {\'o}n}{33}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2} Verificaci\IeC {\'o}n de requerimientos}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Grupo de requerimientos referidos a alimentaci\IeC {\'o}n el\IeC {\'e}ctrica}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Grupo de requerimientos referidos a medici\IeC {\'o}n de potencia del equipo}{34}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Grupo de requerimientos referidos a Interfaces de comunicaci\IeC {\'o}n}{35}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Grupo de requerimientos referidos a dise\IeC {\~n}o del circuito el\IeC {\'e}ctrico}{35}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Grupo de requerimientos referidos a dise\IeC {\~n}o de impresi\IeC {\'o}n del circuito}{36}{subsection.4.2.5}
+\contentsline {chapter}{\numberline {5}Conclusiones}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusiones generales }{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}Pr\IeC {\'o}ximos pasos}{37}{section.5.2}
+\contentsline {chapter}{Bibliograf\'{\i }a}{39}{appendix*.65}

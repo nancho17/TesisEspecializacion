@@ -171,23 +171,47 @@ INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcapt
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hobsub\hobsub-hyperref.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hobsub\hobsub-hyperref.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hobsub\hobsub-hyperref.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hopatch.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hopatch.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
@@ -196,6 +220,18 @@ INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlayer-scrpage.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlayer.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlayer.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx
 INPUT memoria.aux
@@ -204,6 +240,12 @@ INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter2.aux
 INPUT Chapters\Chapter2.aux
+INPUT Chapters\Chapter3.aux
+INPUT Chapters\Chapter3.aux
+INPUT Chapters\Chapter4.aux
+INPUT Chapters\Chapter4.aux
+INPUT Chapters\Chapter5.aux
+INPUT Chapters\Chapter5.aux
 OUTPUT memoria.aux
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
@@ -228,6 +270,8 @@ INPUT memoria.bbl
 INPUT memoria.bbl
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
 INPUT memoria.out
@@ -246,6 +290,19 @@ INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss10.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
@@ -295,15 +352,21 @@ INPUT memoria.toc
 INPUT memoria.toc
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbc8t.tfm
-OUTPUT memoria.toc
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplbc8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplri8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
+OUTPUT memoria.toc
 INPUT memoria.lof
 INPUT memoria.lof
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
 OUTPUT memoria.lof
 INPUT memoria.lot
 INPUT memoria.lot
@@ -317,7 +380,6 @@ OUTPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter1.tex
 INPUT Chapters\Chapter1.tex
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT Figures\3931_1.png
 INPUT .\Figures\3931_1.png
 INPUT .\Figures\3931_1.png
@@ -325,24 +387,49 @@ INPUT .\Figures\3931_1.png
 INPUT .\Figures\3931_1.png
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss9.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt9.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
-INPUT Figures\concepto.jpeg
-INPUT .\Figures\concepto.jpeg
-INPUT .\Figures\concepto.jpeg
-INPUT .\Figures\concepto.jpeg
-INPUT .\Figures\concepto.jpeg
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8t.tfm
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplro8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplro8r.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplrc8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplri8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT Figures\concepto.png
+INPUT .\Figures\concepto.png
+INPUT .\Figures\concepto.png
+INPUT .\Figures\concepto.png
+INPUT .\Figures\concepto.png
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplro8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplro8r.tfm
 INPUT Figures\pzeem004.jpg
 INPUT .\Figures\pzeem004.jpg
 INPUT .\Figures\pzeem004.jpg
@@ -353,65 +440,253 @@ INPUT .\Figures\potencia_ej.png
 INPUT .\Figures\potencia_ej.png
 INPUT .\Figures\potencia_ej.png
 INPUT .\Figures\potencia_ej.png
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT Figures\dispositivo_empresa.png
 INPUT .\Figures\dispositivo_empresa.png
 INPUT .\Figures\dispositivo_empresa.png
 INPUT .\Figures\dispositivo_empresa.png
 INPUT .\Figures\dispositivo_empresa.png
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
 OUTPUT Chapters\Chapter2.aux
 INPUT Chapters\Chapter2.tex
 INPUT Chapters\Chapter2.tex
-INPUT Figures\msp430F2618.png
-INPUT .\Figures\msp430F2618.png
-INPUT .\Figures\msp430F2618.png
-INPUT .\Figures\msp430F2618.png
-INPUT .\Figures\msp430F2618.png
 INPUT Figures\microdatasheet1.png
 INPUT .\Figures\microdatasheet1.png
 INPUT .\Figures\microdatasheet1.png
 INPUT .\Figures\microdatasheet1.png
 INPUT .\Figures\microdatasheet1.png
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
-INPUT Figures\PG-LQFP-64-18.png
-INPUT .\Figures\PG-LQFP-64-18.png
-INPUT .\Figures\PG-LQFP-64-18.png
-INPUT .\Figures\PG-LQFP-64-18.png
-INPUT .\Figures\PG-LQFP-64-18.png
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8t.tfm
 INPUT Figures\emeesepeFET.jpg
 INPUT .\Figures\emeesepeFET.jpg
 INPUT .\Figures\emeesepeFET.jpg
 INPUT .\Figures\emeesepeFET.jpg
 INPUT .\Figures\emeesepeFET.jpg
-INPUT Figures\cableJtag.jpg
-INPUT .\Figures\cableJtag.jpg
-INPUT .\Figures\cableJtag.jpg
-INPUT .\Figures\cableJtag.jpg
-INPUT .\Figures\cableJtag.jpg
 INPUT Figures\Jtagfetsch.png
 INPUT .\Figures\Jtagfetsch.png
 INPUT .\Figures\Jtagfetsch.png
 INPUT .\Figures\Jtagfetsch.png
 INPUT .\Figures\Jtagfetsch.png
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplbi8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8r.tfm
 INPUT Figures\Embeddedworkbench.png
 INPUT .\Figures\Embeddedworkbench.png
 INPUT .\Figures\Embeddedworkbench.png
 INPUT .\Figures\Embeddedworkbench.png
 INPUT .\Figures\Embeddedworkbench.png
+INPUT Figures\ade7953funcdiagr.png
+INPUT .\Figures\ade7953funcdiagr.png
+INPUT .\Figures\ade7953funcdiagr.png
+INPUT .\Figures\ade7953funcdiagr.png
+INPUT .\Figures\ade7953funcdiagr.png
+INPUT Figures\tramauartade.png
+INPUT .\Figures\tramauartade.png
+INPUT .\Figures\tramauartade.png
+INPUT .\Figures\tramauartade.png
+INPUT .\Figures\tramauartade.png
+OUTPUT Chapters\Chapter3.aux
+INPUT Chapters\Chapter3.tex
+INPUT Chapters\Chapter3.tex
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8t.tfm
+INPUT Figures\Placa1v6.png
+INPUT .\Figures\Placa1v6.png
+INPUT .\Figures\Placa1v6.png
+INPUT .\Figures\Placa1v6.png
+INPUT .\Figures\Placa1v6.png
+INPUT Figures\esquema22.png
+INPUT .\Figures\esquema22.png
+INPUT .\Figures\esquema22.png
+INPUT .\Figures\esquema22.png
+INPUT .\Figures\esquema22.png
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplbi8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8r.tfm
+INPUT Figures\alimentacion1.png
+INPUT .\Figures\alimentacion1.png
+INPUT .\Figures\alimentacion1.png
+INPUT .\Figures\alimentacion1.png
+INPUT .\Figures\alimentacion1.png
+INPUT Figures\alimentacion2.png
+INPUT .\Figures\alimentacion2.png
+INPUT .\Figures\alimentacion2.png
+INPUT .\Figures\alimentacion2.png
+INPUT .\Figures\alimentacion2.png
+INPUT Figures\comaislado1.png
+INPUT .\Figures\comaislado1.png
+INPUT .\Figures\comaislado1.png
+INPUT .\Figures\comaislado1.png
+INPUT .\Figures\comaislado1.png
+INPUT Figures\JTAG1.png
+INPUT .\Figures\JTAG1.png
+INPUT .\Figures\JTAG1.png
+INPUT .\Figures\JTAG1.png
+INPUT .\Figures\JTAG1.png
+INPUT Figures\RSS232_1.png
+INPUT .\Figures\RSS232_1.png
+INPUT .\Figures\RSS232_1.png
+INPUT .\Figures\RSS232_1.png
+INPUT .\Figures\RSS232_1.png
+INPUT Figures\RSS485_1.png
+INPUT .\Figures\RSS485_1.png
+INPUT .\Figures\RSS485_1.png
+INPUT .\Figures\RSS485_1.png
+INPUT .\Figures\RSS485_1.png
+INPUT Figures\rele1.png
+INPUT .\Figures\rele1.png
+INPUT .\Figures\rele1.png
+INPUT .\Figures\rele1.png
+INPUT .\Figures\rele1.png
+INPUT Figures\salida420.png
+INPUT .\Figures\salida420.png
+INPUT .\Figures\salida420.png
+INPUT .\Figures\salida420.png
+INPUT .\Figures\salida420.png
+INPUT Figures\ade7953.png
+INPUT .\Figures\ade7953.png
+INPUT .\Figures\ade7953.png
+INPUT .\Figures\ade7953.png
+INPUT .\Figures\ade7953.png
+INPUT Figures\medicionvoltaje.png
+INPUT .\Figures\medicionvoltaje.png
+INPUT .\Figures\medicionvoltaje.png
+INPUT .\Figures\medicionvoltaje.png
+INPUT .\Figures\medicionvoltaje.png
+INPUT Figures\medicioncorriente.png
+INPUT .\Figures\medicioncorriente.png
+INPUT .\Figures\medicioncorriente.png
+INPUT .\Figures\medicioncorriente.png
+INPUT .\Figures\medicioncorriente.png
+INPUT Figures\conectores2.png
+INPUT .\Figures\conectores2.png
+INPUT .\Figures\conectores2.png
+INPUT .\Figures\conectores2.png
+INPUT .\Figures\conectores2.png
+INPUT Figures\estandaresmayer.png
+INPUT .\Figures\estandaresmayer.png
+INPUT .\Figures\estandaresmayer.png
+INPUT .\Figures\estandaresmayer.png
+INPUT .\Figures\estandaresmayer.png
+INPUT Figures\PCBfront.png
+INPUT .\Figures\PCBfront.png
+INPUT .\Figures\PCBfront.png
+INPUT .\Figures\PCBfront.png
+INPUT .\Figures\PCBfront.png
+INPUT Figures\PCBback.png
+INPUT .\Figures\PCBback.png
+INPUT .\Figures\PCBback.png
+INPUT .\Figures\PCBback.png
+INPUT .\Figures\PCBback.png
+INPUT Figures\placaarmada1.jpeg
+INPUT .\Figures\placaarmada1.jpeg
+INPUT .\Figures\placaarmada1.jpeg
+INPUT .\Figures\placaarmada1.jpeg
+INPUT .\Figures\placaarmada1.jpeg
+INPUT Figures\parche2.jpg
+INPUT .\Figures\parche2.jpg
+INPUT .\Figures\parche2.jpg
+INPUT .\Figures\parche2.jpg
+INPUT .\Figures\parche2.jpg
+INPUT Figures\protofinal.jpeg
+INPUT .\Figures\protofinal.jpeg
+INPUT .\Figures\protofinal.jpeg
+INPUT .\Figures\protofinal.jpeg
+INPUT .\Figures\protofinal.jpeg
+INPUT Figures\Diagramadeprograma.jpeg
+INPUT .\Figures\Diagramadeprograma.jpeg
+INPUT .\Figures\Diagramadeprograma.jpeg
+INPUT .\Figures\Diagramadeprograma.jpeg
+INPUT .\Figures\Diagramadeprograma.jpeg
+INPUT Figures\ade7uartread.png
+INPUT .\Figures\ade7uartread.png
+INPUT .\Figures\ade7uartread.png
+INPUT .\Figures\ade7uartread.png
+INPUT .\Figures\ade7uartread.png
+INPUT Figures\ade7uartwrite.png
+INPUT .\Figures\ade7uartwrite.png
+INPUT .\Figures\ade7uartwrite.png
+INPUT .\Figures\ade7uartwrite.png
+INPUT .\Figures\ade7uartwrite.png
+INPUT Figures\MenuUsuario1.png
+INPUT .\Figures\MenuUsuario1.png
+INPUT .\Figures\MenuUsuario1.png
+INPUT .\Figures\MenuUsuario1.png
+INPUT .\Figures\MenuUsuario1.png
+INPUT Figures\MenuCalib1.png
+INPUT .\Figures\MenuCalib1.png
+INPUT .\Figures\MenuCalib1.png
+INPUT .\Figures\MenuCalib1.png
+INPUT .\Figures\MenuCalib1.png
+OUTPUT Chapters\Chapter4.aux
+INPUT Chapters\Chapter4.tex
+INPUT Chapters\Chapter4.tex
+INPUT Figures\osciloscope.jpg
+INPUT .\Figures\osciloscope.jpg
+INPUT .\Figures\osciloscope.jpg
+INPUT .\Figures\osciloscope.jpg
+INPUT .\Figures\osciloscope.jpg
+INPUT Figures\ADEresponse.jpg
+INPUT .\Figures\ADEresponse.jpg
+INPUT .\Figures\ADEresponse.jpg
+INPUT .\Figures\ADEresponse.jpg
+INPUT .\Figures\ADEresponse.jpg
+INPUT Figures\ModbusTest.jpg
+INPUT .\Figures\ModbusTest.jpg
+INPUT .\Figures\ModbusTest.jpg
+INPUT .\Figures\ModbusTest.jpg
+INPUT .\Figures\ModbusTest.jpg
+INPUT Figures\BancoCalib.jpg
+INPUT .\Figures\BancoCalib.jpg
+INPUT .\Figures\BancoCalib.jpg
+INPUT .\Figures\BancoCalib.jpg
+INPUT .\Figures\BancoCalib.jpg
+INPUT Figures\HojadeAplicacion.png
+INPUT .\Figures\HojadeAplicacion.png
+INPUT .\Figures\HojadeAplicacion.png
+INPUT .\Figures\HojadeAplicacion.png
+INPUT .\Figures\HojadeAplicacion.png
+INPUT Figures\ConectorAlim.jpeg
+INPUT .\Figures\ConectorAlim.jpeg
+INPUT .\Figures\ConectorAlim.jpeg
+INPUT .\Figures\ConectorAlim.jpeg
+INPUT .\Figures\ConectorAlim.jpeg
+INPUT Figures\ConRS232.jpeg
+INPUT .\Figures\ConRS232.jpeg
+INPUT .\Figures\ConRS232.jpeg
+INPUT .\Figures\ConRS232.jpeg
+INPUT .\Figures\ConRS232.jpeg
+INPUT Figures\polyswitchyrele.jpg
+INPUT .\Figures\polyswitchyrele.jpg
+INPUT .\Figures\polyswitchyrele.jpg
+INPUT .\Figures\polyswitchyrele.jpg
+INPUT .\Figures\polyswitchyrele.jpg
+OUTPUT Chapters\Chapter5.aux
+INPUT Chapters\Chapter5.tex
+INPUT Chapters\Chapter5.tex
 INPUT memoria.aux
 INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter2.aux
 INPUT Chapters\Chapter2.aux
+INPUT Chapters\Chapter3.aux
+INPUT Chapters\Chapter3.aux
+INPUT Chapters\Chapter4.aux
+INPUT Chapters\Chapter4.aux
+INPUT Chapters\Chapter5.aux
+INPUT Chapters\Chapter5.aux
 INPUT .\memoria.out
 INPUT .\memoria.out
 INPUT memoria.run.xml
 OUTPUT memoria.run.xml
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplbi8a.pfb
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplbi8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplr8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplr8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplr8a.pfb
