@@ -29,7 +29,7 @@ Para este trabajo se optó por un microcontrolador que pueda ser usado para una 
 
 %Como toda aplicación de un sistema embebido, la electrónica diseñada suele ser mas una extension del microcontrolador, adaptado analógicamente para que realice las tareas que se desea resolver, que una parte más de la electrónica.
 
-El microcontrolador elegido para el dispositivo fue un MSP430F2618 \cite{msp430freff}, fabricado por la empresa Texas Instruments. Este microcontrolador es de ultra baja potencia y posee una CPU de instrucciones RISC de 16 bits. Posee periféricos analógicos y digitales orientados a aplicaciones de medición. Este microcontrolador, cuyo \textit{pinout} se puede observar en la figura \ref{fig:msp430squematic}, puede pasar de sus distintos modos de baja potencia al modo activo en menos de un 1 $\mu$s.
+El microcontrolador elegido para el dispositivo fue un MSP430F2618 \cite{msp430freff}, fabricado por la empresa Texas Instruments. Este microcontrolador es de ultra baja potencia y posee una CPU de instrucciones RISC de 16 bits. Este microcontrolador, cuyo \textit{pinout} se puede observar en la figura \ref{fig:msp430squematic}, puede pasar de sus distintos modos de baja potencia al modo activo en menos de un 1 $\mu$s.
 
 
 %\begin{figure}[!h]
@@ -39,17 +39,14 @@ El microcontrolador elegido para el dispositivo fue un MSP430F2618 \cite{msp430f
 %	\label{fig:msp430imagen}
 %\end{figure}
 
-El MSP430F2618 posee varios tipos de periféricos ideados para diferentes aplicaciones. El fabricante denomina a cada uno de estos periféricos como \textquotedblleft módulos\textquotedblright .
+El MSP430F2618 posee en su estructura interna diferentes tipos de periféricos ideados para diversas aplicaciones. El fabricante denomina a cada uno de estos periféricos como \textquotedblleft módulos\textquotedblright .
  
 Estos módulos son hardware de diferentes aplicaciones que normalmente usan los microcontroladores, los cuales el fabricante decidido incluirlos en el circuito integrado. El MSP430F2618 incluye por ejemplo un módulo de reloj, un módulo controlador de memoria flash, un módulo de comunicación serie y un módulo de control directo de memoria (DMA) \cite{msp430slau144j}. 
 
-Cómo los módulos se encuentran en el circuito integrado, están conectados a la CPU a través de los buses de dato, dirección y control. Se pueden utilizar los módulos accediendo a las direcciones de memoria correspondiente. El uso de estos módulos facilita la programación del firmware, sin agregar hardware extra.
-
- 
+Como los módulos se encuentran en el circuito integrado, estos están conectados a la CPU a través de buses de dato, dirección y control. Los módulos se pueden utilizar  accediendo a las direcciones de memoria correspondientes. El uso de estos módulos facilita la programación del firmware, y añade al microcontrolador diferentes capacidades sin agregar hardware extra.
 
 
-
-Este modelo de la familia MSP430 se eligió específicamente por poseer tanto un módulo ADC (conversor analógico-digital) cómo un módulo DAC (conversor digital-analógico). El módulo DAC fue utilizado para la implementación de un lazo de corriente, que es una forma de comunicación común para procesos industriales. Se consideró usar al módulo ADC para realizar mediciones de corriente o tensión, sin embargo su uso fue descartado por otra solución más completa que involucraba a otro circuito integrado.
+Este modelo de la familia MSP430 \citep{msp430family} se eligió específicamente por poseer tanto un módulo ADC (conversor analógico-digital) cómo un módulo DAC (conversor digital-analógico). El módulo DAC fue utilizado para la implementación de un lazo de corriente \citep{liptak2018instrument}, que es una forma de comunicación común para procesos industriales. Se consideró usar al módulo ADC para realizar mediciones de corriente o tensión, sin embargo su uso fue descartado por otra solución más completa que involucraba a otro circuito integrado.
 
 Para el trabajo se usó el módulo de comunicación serie universal para realizar la comunicación con el integrado de medición como también para realizar los protocolos de comunicación requeridos. El microcontrolador posee un oscilador interno por lo que no necesita de uno externo para funcionar, sin embargo se decidió usar un oscilador externo para asegurar la estabilidad de las comunicaciones seriales como también para aumentar la precisión de los módulos temporizadores que se implementaron.
 
