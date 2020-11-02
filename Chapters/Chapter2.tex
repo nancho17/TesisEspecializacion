@@ -48,12 +48,12 @@ Como los módulos se encuentran en el circuito integrado, estos están conectado
 
 Este modelo de la familia MSP430 \citep{msp430family} se eligió específicamente por poseer tanto un módulo ADC (conversor analógico-digital) cómo un módulo DAC (conversor digital-analógico). El módulo DAC fue utilizado para la implementación de un lazo de corriente \citep{liptak2018instrument}, que es una forma de comunicación común para procesos industriales. Se consideró usar al módulo ADC para realizar mediciones de corriente o tensión, sin embargo su uso fue descartado por otra solución más completa que involucraba a otro circuito integrado.
 
-Para el trabajo se usó el módulo de comunicación serie universal para realizar la comunicación con el integrado de medición como también para realizar los protocolos de comunicación requeridos. El microcontrolador posee un oscilador interno por lo que no necesita de uno externo para funcionar, sin embargo se decidió usar un oscilador externo para asegurar la estabilidad de las comunicaciones seriales como también para aumentar la precisión de los módulos temporizadores que se implementaron.
+Para el trabajo se usó el módulo de comunicación serie universal(UART) del MSP430 para realizar la comunicación con el integrado de medición como también para realizar los protocolos de comunicación requeridos. Para asegurar la estabilidad de las comunicaciones seriales como también para aumentar la precisión de los módulos temporizadores dentro del microcontrolador se decidió implementar un oscilador externo.
 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=60mm,keepaspectratio]{Figures/microdatasheet1.png}
-	\caption{Esquemático del micro controlador.}
+	\caption{Esquemático del \textit{pinout} de un microcontrolador MSP430F261x.}
 	\label{fig:msp430squematic}
 \end{figure}
 
@@ -78,9 +78,8 @@ Para el trabajo se usó el módulo de comunicación serie universal para realiza
 
 %Para lograr que el microcontrolador realice todas las tareas requeridas se debe programarlo para tal fin, es decir se debe escribir las instrucciones que deberá seguir el microcontrolador. El conjunto de instrucciones que se escriben para que un microcontrolador funcione es a lo que denominamos programa, y en este trabajo se llamara firmware. El firmware debe cargarse de algún modo desde la computadora personal donde lo diseñamos al chip. 
 
-Para cargar el programa al microcontrolador, el fabricante especifica una herramienta de programación al que denomina \textquotedblleft FET hardware JTAG\textquotedblright , donde FET es acrónimo de \textit{Flash Emulation Tool} y JTAG acrónimo de \textit{Joint Test Action Group}. La herramienta puede verse en la figura \ref{fig:mspFETtool}.
-
-El JTAG es un estándar industrial para verificar diseños y testear placas de circuito impresas después de manufacturadas \cite{JTAGintel}. Los programadores JTAG son usados para escribir software en memorias \textit{flash}.
+Para cargar el programa al microcontrolador, el fabricante especifica una herramienta de programación al que denomina \textquotedblleft FET hardware JTAG\textquotedblright \cite{FETjtag} , donde FET es acrónimo de \textit{Flash Emulation Tool} y JTAG acrónimo de \textit{Joint Test Action Group}. La herramienta puede verse en la figura \ref{fig:mspFETtool}. El JTAG es un estándar industrial para verificar diseños y testear placas de circuito impresas después de manufacturadas \cite{JTAGintel}. 
+%Los programadores JTAG son usados para escribir software en memorias \textit{flash}.
 %citar el resumen de intel del ieee
 
 %JTAG (named after the Joint Test Action Group which codified it) is an industry standard for verifying designs and testing printed circuit boards after manufacture.
@@ -93,7 +92,7 @@ El JTAG es un estándar industrial para verificar diseños y testear placas de c
 	\label{fig:mspFETtool}
 \end{figure}
 
-Con las conexiones apropiadas un debugger y la interfaz JTAG pueden ser usadas para depurar código en el microcontrolador. Esto facilita la programación de prototipos a realizar. El cable utilizado para conectar la herramienta a través de una interfaz JTAG era un ejemplo de como debía ser la conexión en la placa electrónica del prototipo.
+Con las conexiones apropiadas, un debugger y la interfaz JTAG pueden ser usadas para depurar código en el microcontrolador. Esto facilita la programación de prototipos a realizar. 
 
 
 %The typical MSP Flasher execution flow consists of the following steps. Optional steps can be activated or
@@ -125,15 +124,19 @@ Con las conexiones apropiadas un debugger y la interfaz JTAG pueden ser usadas p
 %	\label{fig:mspFETcable}
 %\end{figure}
 
-En la hoja de datos de la herramienta, el fabricante especifica las conexiones y funciones de cada pin, como puede verse en la figura \ref{fig:JtagSCH}. El circuito esquemático de las conexiones fue tomado en cuenta para el diseño del esquemático del prototipo, en el cual se optó por una interfaz \textit{JTAG Through-Hole}. 
+En la hoja de datos de la herramienta, el fabricante especifica las conexiones y funciones de cada pin, como puede verse en la figura \ref{fig:JtagSCH}.
 
-Para el trabajo realizado, la empresa SERVAIND S.A. proveyó la herramienta MSP-FET430UIF para poder entender y probar el proceso de programación de un microcontrolador MSP430.
+
+El circuito esquemático de las conexiones fue tomado en cuenta para el diseño del esquemático del prototipo, en el cual se optó por una interfaz \textit{JTAG Through-Hole}, ya que era la conexión requerida de la herramienta de programación disponible. 
+% \textit{pin header}
+
+Para el trabajo realizado, la empresa SERVAIND S.A. proveyó la herramienta MSP-FET430UIF \cite{FETjtag} para poder entender y probar el proceso de programación de un microcontrolador MSP430.
 
 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=100mm,keepaspectratio]{Figures/Jtagfetsch.png}
-	\caption{ Esquemático del conector JTAG de la herramienta de programación.. }
+	\caption{ Esquemático del conector JTAG de la herramienta de programación. }
 	\label{fig:JtagSCH}
 \end{figure}
 
