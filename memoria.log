@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.3)  29 OCT 2020 19:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.3)  5 NOV 2020 20:34
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -1097,11 +1097,7 @@ LaTeX Info: Redefining \% on input line 30.
 
 LaTeX Warning: Label `sec:cap2parte2' multiply defined.
 
-) (Chapters/Chapter3.aux
-
-LaTeX Warning: Label `fig:rele1equem' multiply defined.
-
-) (Chapters/Chapter4.aux) (Chapters/Chapter5.aux))
+))
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -1119,8 +1115,7 @@ LaTeX Font Info:    ... okay on input line 89.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
 LaTeX Font Info:    ... okay on input line 89.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 89.
-
-("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
+ ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Info: Redefining \sptext on input line 89.
@@ -1128,8 +1123,7 @@ LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+ ("C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1365,7 +1359,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 89.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 1: section
-<./Figures/logoFIUBA.png, id=227, 2536.47626pt x 818.05624pt>
+<./Figures/logoFIUBA.png, id=83, 2536.47626pt x 818.05624pt>
 File: ./Figures/logoFIUBA.png Graphic file (type png)
 <use ./Figures/logoFIUBA.png>
 Package pdftex.def Info: ./Figures/logoFIUBA.png  used on input line 103.
@@ -1406,31 +1400,27 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 3.
-
-1: section
-[7]
-Overfull \hbox (2.99193pt too wide) in paragraph at lines 53--53
- [][] [][][]\T1/ppl/m/n/10.95 Grupo de re-que-ri-mien-tos re-fe-ri-dos a di-se-
-ño del cir-cui-to eléc- 
- []
-
 )
 \tf@toc=\write5
 \openout5 = `memoria.toc'.
 
- [8] (memoria.lof
+
+1: section
+[7] [8
+
+] (memoria.lof
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-
-1: section
-[9
-
-])
+)
 \tf@lof=\write6
 \openout6 = `memoria.lof'.
 
- [10] (memoria.lot
+
+1: section
+[9] [10
+
+] (memoria.lot
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -1440,9 +1430,7 @@ LaTeX Info: Redefining \% on input line 2.
 
 
 1: section
-[11
-
-] [12
+[11] [12
 
 ]
 --------------------
@@ -1461,7 +1449,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <14.4> not available
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 25.
-<Figures/3931_1.png, id=467, 226.59656pt x 216.81pt>
+<Figures/3931_1.png, id=206, 226.59656pt x 216.81pt>
 File: Figures/3931_1.png Graphic file (type png)
 <use Figures/3931_1.png>
 Package pdftex.def Info: Figures/3931_1.png  used on input line 55.
@@ -1471,7 +1459,7 @@ Package pdftex.def Info: Figures/3931_1.png  used on input line 55.
 
 
  <./Figures/3931_1.png>]
-<Figures/concepto.png, id=484, 533.1117pt x 334.3692pt>
+<Figures/concepto.png, id=223, 533.1117pt x 334.3692pt>
 File: Figures/concepto.png Graphic file (type png)
 <use Figures/concepto.png>
 Package pdftex.def Info: Figures/concepto.png  used on input line 78.
@@ -1480,12 +1468,12 @@ LaTeX Info: Redefining \sptext on input line 96.
 LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
  [2 <./Figures/concepto.png>]
-<Figures/pzeem004.jpg, id=497, 1204.5pt x 1184.425pt>
+<Figures/pzeem004.jpg, id=236, 1204.5pt x 1184.425pt>
 File: Figures/pzeem004.jpg Graphic file (type jpg)
 <use Figures/pzeem004.jpg>
 Package pdftex.def Info: Figures/pzeem004.jpg  used on input line 108.
 (pdftex.def)             Requested size: 227.62204pt x 223.81413pt.
-<Figures/potencia_ej.png, id=501, 787.44188pt x 597.73312pt>
+<Figures/potencia_ej.png, id=240, 787.44188pt x 597.73312pt>
 File: Figures/potencia_ej.png Graphic file (type png)
 <use Figures/potencia_ej.png>
 Package pdftex.def Info: Figures/potencia_ej.png  used on input line 119.
@@ -1505,7 +1493,7 @@ r prin-ci-pal MSP430F2418.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 171.
-<Figures/dispositivo_empresa.png, id=517, 454.69875pt x 462.22687pt>
+<Figures/dispositivo_empresa.png, id=256, 454.69875pt x 462.22687pt>
 File: Figures/dispositivo_empresa.png Graphic file (type png)
 <use Figures/dispositivo_empresa.png>
 Package pdftex.def Info: Figures/dispositivo_empresa.png  used on input line 17
@@ -1532,63 +1520,68 @@ Cap\'{\i }tulo 2.
 
 
 ]
-<Figures/microdatasheet1.png, id=554, 377.91188pt x 416.30531pt>
+<Figures/microdatasheet1.png, id=293, 377.91188pt x 416.30531pt>
 File: Figures/microdatasheet1.png Graphic file (type png)
 <use Figures/microdatasheet1.png>
 Package pdftex.def Info: Figures/microdatasheet1.png  used on input line 55.
 (pdftex.def)             Requested size: 170.71652pt x 188.05981pt.
+
+Underfull \hbox (badness 1077) in paragraph at lines 56--56
+ []\T1/ppl/m/sc/10 Figura 2.1. |\T1/ppl/m/n/10 Es-que-má-ti-co del \T1/ppl/m/it
+/10 pi-nout \T1/ppl/m/n/10 de un mi-cro-con-tro-la-dor 
+ []
+
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 77.
-<Figures/emeesepeFET.jpg, id=557, 752.8125pt x 752.8125pt>
+<Figures/emeesepeFET.jpg, id=297, 752.8125pt x 752.8125pt>
 File: Figures/emeesepeFET.jpg Graphic file (type jpg)
 <use Figures/emeesepeFET.jpg>
-Package pdftex.def Info: Figures/emeesepeFET.jpg  used on input line 91.
+Package pdftex.def Info: Figures/emeesepeFET.jpg  used on input line 90.
 (pdftex.def)             Requested size: 284.52756pt x 284.53246pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 131.
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
-[8 <./Figures/microdatasheet1.png>]
-<Figures/Jtagfetsch.png, id=566, 609.77812pt x 296.60812pt>
+<Figures/Jtagfetsch.png, id=300, 609.77812pt x 296.60812pt>
 File: Figures/Jtagfetsch.png Graphic file (type png)
 <use Figures/Jtagfetsch.png>
-Package pdftex.def Info: Figures/Jtagfetsch.png  used on input line 135.
+Package pdftex.def Info: Figures/Jtagfetsch.png  used on input line 138.
 (pdftex.def)             Requested size: 284.52756pt x 138.40561pt.
-LaTeX Info: Redefining \sptext on input line 147.
-LaTeX Info: Redefining \. on input line 147.
-LaTeX Info: Redefining \% on input line 147.
+LaTeX Info: Redefining \sptext on input line 141.
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+[8 <./Figures/microdatasheet1.png>]
+LaTeX Info: Redefining \sptext on input line 150.
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
  [9 <./Figures/emeesepeFET.jpg> <./Figures/Jtagfetsch.png>]
-Overfull \hbox (10.08717pt too wide) in paragraph at lines 148--149
+Overfull \hbox (10.08717pt too wide) in paragraph at lines 151--152
 \T1/ppl/m/n/10.95 ple-ji-da-des del pro-to-co-lo JTAG. Ade-más, la bi-blio-te-c
 a pue-de co-nec-tar-se a un MSP430
  []
 
-<Figures/Embeddedworkbench.png, id=575, 725.71124pt x 410.2828pt>
+<Figures/Embeddedworkbench.png, id=317, 725.71124pt x 410.2828pt>
 File: Figures/Embeddedworkbench.png Graphic file (type png)
 <use Figures/Embeddedworkbench.png>
-Package pdftex.def Info: Figures/Embeddedworkbench.png  used on input line 163.
+Package pdftex.def Info: Figures/Embeddedworkbench.png  used on input line 166.
 
 (pdftex.def)             Requested size: 389.80269pt x 220.37871pt.
-LaTeX Info: Redefining \sptext on input line 176.
-LaTeX Info: Redefining \. on input line 176.
-LaTeX Info: Redefining \% on input line 176.
+LaTeX Info: Redefining \sptext on input line 178.
+LaTeX Info: Redefining \. on input line 178.
+LaTeX Info: Redefining \% on input line 178.
 [10 <./Figures/Embeddedworkbench.png>]
-<Figures/ade7953funcdiagr.png, id=583, 904.88063pt x 539.76656pt>
+<Figures/ade7953funcdiagr.png, id=325, 904.88063pt x 539.76656pt>
 File: Figures/ade7953funcdiagr.png Graphic file (type png)
 <use Figures/ade7953funcdiagr.png>
-Package pdftex.def Info: Figures/ade7953funcdiagr.png  used on input line 194.
+Package pdftex.def Info: Figures/ade7953funcdiagr.png  used on input line 199.
 (pdftex.def)             Requested size: 389.80269pt x 232.51514pt.
-LaTeX Info: Redefining \sptext on input line 201.
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
+LaTeX Info: Redefining \sptext on input line 207.
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
  [11 <./Figures/ade7953funcdiagr.png>]
-<Figures/tramauartade.png, id=592, 502.12593pt x 252.19218pt>
+<Figures/tramauartade.png, id=334, 502.12593pt x 252.19218pt>
 File: Figures/tramauartade.png Graphic file (type png)
 <use Figures/tramauartade.png>
-Package pdftex.def Info: Figures/tramauartade.png  used on input line 204.
+Package pdftex.def Info: Figures/tramauartade.png  used on input line 210.
 (pdftex.def)             Requested size: 312.9803pt x 157.20027pt.
 )
 LaTeX Info: Redefining \sptext on input line 199.
@@ -1596,318 +1589,10 @@ LaTeX Info: Redefining \. on input line 199.
 LaTeX Info: Redefining \% on input line 199.
 
 [12 <./Figures/tramauartade.png>]
-\openout2 = `Chapters/Chapter3.aux'.
-
- (Chapters/Chapter3.tex
-Cap\'{\i }tulo 3.
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 9.
-<Figures/Placa1v6.png, id=603, 535.2497pt x 391.4625pt>
-File: Figures/Placa1v6.png Graphic file (type png)
-<use Figures/Placa1v6.png>
-Package pdftex.def Info: Figures/Placa1v6.png  used on input line 22.
-(pdftex.def)             Requested size: 312.9803pt x 228.91205pt.
-<Figures/esquema22.png, id=605, 545.03625pt x 462.22687pt>
-File: Figures/esquema22.png Graphic file (type png)
-<use Figures/esquema22.png>
-Package pdftex.def Info: Figures/esquema22.png  used on input line 31.
-(pdftex.def)             Requested size: 227.62204pt x 193.03369pt.
-1: section
-[13
-
-
-
-]
-LaTeX Info: Redefining \sptext on input line 61.
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
- [14 <./Figures/Placa1v6.png> <./Figures/esquema22.png>]
-<Figures/alimentacion1.png, id=619, 1145.78062pt x 249.93375pt>
-File: Figures/alimentacion1.png Graphic file (type png)
-<use Figures/alimentacion1.png>
-Package pdftex.def Info: Figures/alimentacion1.png  used on input line 65.
-(pdftex.def)             Requested size: 341.43306pt x 74.4773pt.
-<Figures/alimentacion2.png, id=620, 831.105pt x 540.51938pt>
-File: Figures/alimentacion2.png Graphic file (type png)
-<use Figures/alimentacion2.png>
-Package pdftex.def Info: Figures/alimentacion2.png  used on input line 75.
-(pdftex.def)             Requested size: 284.52756pt x 185.04428pt.
-<Figures/comaislado1.png, id=621, 1133.73563pt x 549.55313pt>
-File: Figures/comaislado1.png Graphic file (type png)
-<use Figures/comaislado1.png>
-Package pdftex.def Info: Figures/comaislado1.png  used on input line 82.
-(pdftex.def)             Requested size: 284.52756pt x 137.91623pt.
-LaTeX Info: Redefining \sptext on input line 95.
-LaTeX Info: Redefining \. on input line 95.
-LaTeX Info: Redefining \% on input line 95.
- [15 <./Figures/alimentacion1.png> <./Figures/alimentacion2.png>]
-<Figures/JTAG1.png, id=628, 608.2725pt x 292.84406pt>
-File: Figures/JTAG1.png Graphic file (type png)
-<use Figures/JTAG1.png>
-Package pdftex.def Info: Figures/JTAG1.png  used on input line 98.
-(pdftex.def)             Requested size: 341.43306pt x 164.3803pt.
-<Figures/RSS232_1.png, id=629, 1001.24063pt x 575.90157pt>
-File: Figures/RSS232_1.png Graphic file (type png)
-<use Figures/RSS232_1.png>
-Package pdftex.def Info: Figures/RSS232_1.png  used on input line 108.
-(pdftex.def)             Requested size: 341.43306pt x 196.38391pt.
-<Figures/RSS485_1.png, id=630, 1079.53313pt x 495.35063pt>
-File: Figures/RSS485_1.png Graphic file (type png)
-<use Figures/RSS485_1.png>
-Package pdftex.def Info: Figures/RSS485_1.png  used on input line 115.
-(pdftex.def)             Requested size: 341.43306pt x 156.67117pt.
-<Figures/rele1.png, id=632, 1142.76938pt x 460.72125pt>
-File: Figures/rele1.png Graphic file (type png)
-<use Figures/rele1.png>
-Package pdftex.def Info: Figures/rele1.png  used on input line 126.
-(pdftex.def)             Requested size: 341.43306pt x 137.64801pt.
-<Figures/salida420.png, id=633, 576.65437pt x 526.96875pt>
-File: Figures/salida420.png Graphic file (type png)
-<use Figures/salida420.png>
-Package pdftex.def Info: Figures/salida420.png  used on input line 136.
-(pdftex.def)             Requested size: 341.43306pt x 312.02655pt.
-LaTeX Info: Redefining \sptext on input line 145.
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
- [16 <./Figures/comaislado1.png> <./Figures/JTAG1.png>]
-LaTeX Info: Redefining \sptext on input line 145.
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
- [17 <./Figures/RSS232_1.png> <./Figures/RSS485_1.png> <./Figures/rele1.png>]
-<Figures/ade7953.png, id=647, 231.86626pt x 220.57407pt>
-File: Figures/ade7953.png Graphic file (type png)
-<use Figures/ade7953.png>
-Package pdftex.def Info: Figures/ade7953.png  used on input line 148.
-(pdftex.def)             Requested size: 284.52756pt x 270.69528pt.
-<Figures/medicionvoltaje.png, id=648, 656.4525pt x 570.63188pt>
-File: Figures/medicionvoltaje.png Graphic file (type png)
-<use Figures/medicionvoltaje.png>
-Package pdftex.def Info: Figures/medicionvoltaje.png  used on input line 162.
-(pdftex.def)             Requested size: 227.62204pt x 197.86082pt.
-<Figures/medicioncorriente.png, id=649, 1084.05pt x 501.37312pt>
-File: Figures/medicioncorriente.png Graphic file (type png)
-<use Figures/medicioncorriente.png>
-Package pdftex.def Info: Figures/medicioncorriente.png  used on input line 171.
-
-(pdftex.def)             Requested size: 341.43306pt x 157.91042pt.
-LaTeX Info: Redefining \sptext on input line 179.
-LaTeX Info: Redefining \. on input line 179.
-LaTeX Info: Redefining \% on input line 179.
- [18 <./Figures/salida420.png>]
-LaTeX Info: Redefining \sptext on input line 192.
-LaTeX Info: Redefining \. on input line 192.
-LaTeX Info: Redefining \% on input line 192.
- [19 <./Figures/ade7953.png> <./Figures/medicionvoltaje.png>]
-<Figures/conectores2.png, id=660, 448.67625pt x 472.01344pt>
-File: Figures/conectores2.png Graphic file (type png)
-<use Figures/conectores2.png>
-Package pdftex.def Info: Figures/conectores2.png  used on input line 195.
-(pdftex.def)             Requested size: 341.43306pt x 359.20209pt.
-LaTeX Info: Redefining \sptext on input line 201.
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
- [20 <./Figures/medicioncorriente.png> <./Figures/conectores2.png>]
-<Figures/estandaresmayer.png, id=666, 728.7225pt x 331.99031pt>
-File: Figures/estandaresmayer.png Graphic file (type png)
-<use Figures/estandaresmayer.png>
-Package pdftex.def Info: Figures/estandaresmayer.png  used on input line 204.
-(pdftex.def)             Requested size: 312.9803pt x 142.58588pt.
-<Figures/PCBfront.png, id=671, 681.29532pt x 532.99126pt>
-File: Figures/PCBfront.png Graphic file (type png)
-<use Figures/PCBfront.png>
-Package pdftex.def Info: Figures/PCBfront.png  used on input line 216.
-(pdftex.def)             Requested size: 312.9803pt x 244.85364pt.
-<Figures/PCBback.png, id=673, 684.30656pt x 532.99126pt>
-File: Figures/PCBback.png Graphic file (type png)
-<use Figures/PCBback.png>
-Package pdftex.def Info: Figures/PCBback.png  used on input line 225.
-(pdftex.def)             Requested size: 312.9803pt x 243.78012pt.
-LaTeX Info: Redefining \sptext on input line 236.
-LaTeX Info: Redefining \. on input line 236.
-LaTeX Info: Redefining \% on input line 236.
- [21 <./Figures/estandaresmayer.png> <./Figures/PCBfront.png>]
-<Figures/placaarmada1.jpeg, id=681, 487.8225pt x 659.46375pt>
-File: Figures/placaarmada1.jpeg Graphic file (type jpg)
-<use Figures/placaarmada1.jpeg>
-Package pdftex.def Info: Figures/placaarmada1.jpeg  used on input line 244.
-(pdftex.def)             Requested size: 227.62204pt x 307.7141pt.
-<Figures/parche2.jpg, id=683, 305.64188pt x 265.74281pt>
-File: Figures/parche2.jpg Graphic file (type jpg)
-<use Figures/parche2.jpg>
-Package pdftex.def Info: Figures/parche2.jpg  used on input line 253.
-(pdftex.def)             Requested size: 227.62204pt x 197.90767pt.
-<Figures/protofinal.jpeg, id=685, 647.41875pt x 527.72156pt>
-File: Figures/protofinal.jpeg Graphic file (type jpg)
-<use Figures/protofinal.jpeg>
-Package pdftex.def Info: Figures/protofinal.jpeg  used on input line 264.
-(pdftex.def)             Requested size: 389.80269pt x 317.73856pt.
-LaTeX Info: Redefining \sptext on input line 277.
-LaTeX Info: Redefining \. on input line 277.
-LaTeX Info: Redefining \% on input line 277.
- [22 <./Figures/PCBback.png>]
-LaTeX Info: Redefining \sptext on input line 281.
-LaTeX Info: Redefining \. on input line 281.
-LaTeX Info: Redefining \% on input line 281.
- [23 <./Figures/placaarmada1.jpeg> <./Figures/parche2.jpg>]
-LaTeX Info: Redefining \sptext on input line 304.
-LaTeX Info: Redefining \. on input line 304.
-LaTeX Info: Redefining \% on input line 304.
- [24 <./Figures/protofinal.jpeg>]
-<Figures/Diagramadeprograma.jpeg, id=700, 424.7067pt x 590.4459pt>
-File: Figures/Diagramadeprograma.jpeg Graphic file (type jpg)
-<use Figures/Diagramadeprograma.jpeg>
-Package pdftex.def Info: Figures/Diagramadeprograma.jpeg  used on input line 30
-9.
-(pdftex.def)             Requested size: 312.9803pt x 435.13023pt.
-LaTeX Info: Redefining \sptext on input line 318.
-LaTeX Info: Redefining \. on input line 318.
-LaTeX Info: Redefining \% on input line 318.
- [25 <./Figures/Diagramadeprograma.jpeg>]
-<Figures/ade7uartread.png, id=707, 754.31813pt x 463.7325pt>
-File: Figures/ade7uartread.png Graphic file (type png)
-<use Figures/ade7uartread.png>
-Package pdftex.def Info: Figures/ade7uartread.png  used on input line 325.
-(pdftex.def)             Requested size: 389.80269pt x 239.6351pt.
-<Figures/ade7uartwrite.png, id=709, 931.98187pt x 266.49562pt>
-File: Figures/ade7uartwrite.png Graphic file (type png)
-<use Figures/ade7uartwrite.png>
-Package pdftex.def Info: Figures/ade7uartwrite.png  used on input line 334.
-(pdftex.def)             Requested size: 312.9803pt x 89.49312pt.
-LaTeX Info: Redefining \sptext on input line 340.
-LaTeX Info: Redefining \. on input line 340.
-LaTeX Info: Redefining \% on input line 340.
- [26 <./Figures/ade7uartread.png> <./Figures/ade7uartwrite.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 408.
-
-<Figures/MenuUsuario1.png, id=719, 391.4625pt x 286.06876pt>
-File: Figures/MenuUsuario1.png Graphic file (type png)
-<use Figures/MenuUsuario1.png>
-Package pdftex.def Info: Figures/MenuUsuario1.png  used on input line 459.
-(pdftex.def)             Requested size: 312.9803pt x 228.72873pt.
-LaTeX Info: Redefining \sptext on input line 473.
-LaTeX Info: Redefining \. on input line 473.
-LaTeX Info: Redefining \% on input line 473.
-[27]
-LaTeX Info: Redefining \sptext on input line 473.
-LaTeX Info: Redefining \. on input line 473.
-LaTeX Info: Redefining \% on input line 473.
- [28]
-Overfull \hbox (12.66675pt too wide) in paragraph at lines 478--493
-[][]
- []
-
-LaTeX Info: Redefining \sptext on input line 498.
-LaTeX Info: Redefining \. on input line 498.
-LaTeX Info: Redefining \% on input line 498.
-[29 <./Figures/MenuUsuario1.png>]
-<Figures/MenuCalib1.png, id=737, 337.26pt x 298.11375pt>
-File: Figures/MenuCalib1.png Graphic file (type png)
-<use Figures/MenuCalib1.png>
-Package pdftex.def Info: Figures/MenuCalib1.png  used on input line 501.
-(pdftex.def)             Requested size: 312.9803pt x 276.65611pt.
-)
-LaTeX Info: Redefining \sptext on input line 200.
-LaTeX Info: Redefining \. on input line 200.
-LaTeX Info: Redefining \% on input line 200.
- [30 <./Figures/MenuCalib1.png>]
-\openout2 = `Chapters/Chapter4.aux'.
-
-
-(Chapters/Chapter4.tex
-Cap\'{\i }tulo 4.
-<Figures/osciloscope.jpg, id=744, 487.8225pt x 460.72125pt>
-File: Figures/osciloscope.jpg Graphic file (type jpg)
-<use Figures/osciloscope.jpg>
-Package pdftex.def Info: Figures/osciloscope.jpg  used on input line 32.
-(pdftex.def)             Requested size: 227.62204pt x 214.97835pt.
-1: section
-[31
-
-
-
- <./Figures/osciloscope.jpg>]
-<Figures/ADEresponse.jpg, id=752, 423.08063pt x 332.74312pt>
-File: Figures/ADEresponse.jpg Graphic file (type jpg)
-<use Figures/ADEresponse.jpg>
-Package pdftex.def Info: Figures/ADEresponse.jpg  used on input line 43.
-(pdftex.def)             Requested size: 284.52756pt x 223.77954pt.
-<Figures/ModbusTest.jpg, id=754, 380.92313pt x 188.20313pt>
-File: Figures/ModbusTest.jpg Graphic file (type jpg)
-<use Figures/ModbusTest.jpg>
-Package pdftex.def Info: Figures/ModbusTest.jpg  used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 140.5805pt.
-LaTeX Info: Redefining \sptext on input line 67.
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
- [32 <./Figures/ADEresponse.jpg> <./Figures/ModbusTest.jpg>]
-<Figures/BancoCalib.jpg, id=760, 782.925pt x 407.27156pt>
-File: Figures/BancoCalib.jpg Graphic file (type jpg)
-<use Figures/BancoCalib.jpg>
-Package pdftex.def Info: Figures/BancoCalib.jpg  used on input line 81.
-(pdftex.def)             Requested size: 389.80269pt x 202.77145pt.
-<Figures/HojadeAplicacion.png, id=762, 978.65625pt x 641.39626pt>
-File: Figures/HojadeAplicacion.png Graphic file (type png)
-<use Figures/HojadeAplicacion.png>
-Package pdftex.def Info: Figures/HojadeAplicacion.png  used on input line 90.
-(pdftex.def)             Requested size: 341.43306pt x 223.76782pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-[][][][][]$\T1/ppl/m/n/9 https : / / www . analog . com / media / en / technica
-l-[]documentation / application-[]notes / AN-[]1118 .
- []
-
-<Figures/ConectorAlim.jpeg, id=767, 355.3275pt x 371.88937pt>
-File: Figures/ConectorAlim.jpeg Graphic file (type jpg)
-<use Figures/ConectorAlim.jpeg>
-Package pdftex.def Info: Figures/ConectorAlim.jpeg  used on input line 118.
-(pdftex.def)             Requested size: 227.62204pt x 238.23537pt.
-LaTeX Info: Redefining \sptext on input line 127.
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
-[33 <./Figures/BancoCalib.jpg>]
-LaTeX Info: Redefining \sptext on input line 129.
-LaTeX Info: Redefining \. on input line 129.
-LaTeX Info: Redefining \% on input line 129.
- [34 <./Figures/HojadeAplicacion.png> <./Figures/ConectorAlim.jpeg>]
-<Figures/ConRS232.jpeg, id=779, 322.95656pt x 476.53032pt>
-File: Figures/ConRS232.jpeg Graphic file (type jpg)
-<use Figures/ConRS232.jpeg>
-Package pdftex.def Info: Figures/ConRS232.jpeg  used on input line 165.
-(pdftex.def)             Requested size: 227.62204pt x 335.85939pt.
-LaTeX Info: Redefining \sptext on input line 211.
-LaTeX Info: Redefining \. on input line 211.
-LaTeX Info: Redefining \% on input line 211.
- [35 <./Figures/ConRS232.jpeg>]
-<Figures/polyswitchyrele.jpg, id=787, 172.39406pt x 194.22563pt>
-File: Figures/polyswitchyrele.jpg Graphic file (type jpg)
-<use Figures/polyswitchyrele.jpg>
-Package pdftex.def Info: Figures/polyswitchyrele.jpg  used on input line 214.
-(pdftex.def)             Requested size: 227.62204pt x 256.44974pt.
-)
-LaTeX Info: Redefining \sptext on input line 201.
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
- [36 <./Figures/polyswitchyrele.jpg>]
-\openout2 = `Chapters/Chapter5.aux'.
-
- (Chapters/Chapter5.tex
-Cap\'{\i }tulo 5.
-1: section
-[37
-
-
-
-])
-LaTeX Info: Redefining \sptext on input line 202.
-LaTeX Info: Redefining \. on input line 202.
-LaTeX Info: Redefining \% on input line 202.
- [38]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
 
 1: section
-[39
+[13
 
 
 ]
@@ -1916,12 +1601,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- (Chapters/Chapter1.aux) (Chapters/Chapter2.aux)
-(Chapters/Chapter3.aux) (Chapters/Chapter4.aux) (Chapters/Chapter5.aux))
+ (Chapters/Chapter1.aux) (Chapters/Chapter2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 0AEF14645ED514F1648B966ECC04A692;4475.
+(rerunfilecheck)             Checksum: 49B1AF546C90B41D9C3CF4B516BCFAAD;1422.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1931,21 +1615,15 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34775 strings out of 492969
- 711338 string characters out of 3126586
- 972336 words of memory out of 3000000
- 37975 multiletter control sequences out of 15000+200000
- 591666 words of font info for 127 fonts, out of 3000000 for 9000
+ 34407 strings out of 492969
+ 703964 string characters out of 3126586
+ 964053 words of memory out of 3000000
+ 37763 multiletter control sequences out of 15000+200000
+ 591623 words of font info for 127 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
- 60i,21n,77p,979b,2628s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
+ 60i,20n,77p,800b,2237s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
 st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
-, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 , replaced by a fixed one
@@ -1955,17 +1633,16 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 
 {C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
 C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/urw/palatino/uplb8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/herda/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/herda/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/herda/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/herda/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on memoria.pdf (53 pages, 5388545 bytes).
+/cmmi10.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/p
+alatino/uplb8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/urw/palatino/uplb8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/urw/palatino/uplbi8a.pfb><C:/Users/herda/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/herda/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/herda/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on memoria.pdf (27 pages, 2333263 bytes).
 PDF statistics:
- 890 PDF objects out of 1000 (max. 8388607)
- 198 named destinations out of 1000 (max. 500000)
- 674 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

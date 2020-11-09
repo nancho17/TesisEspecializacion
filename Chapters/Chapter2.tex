@@ -174,21 +174,23 @@ Para el trabajo realizado la empresa SERVAIND S.A. proveyó una versión del IDE
 \section{Circuito integrado de medición}
 \label{sec:cap2parte3}
 
-Para la realización de este trabajo se decidió utilizar un chip que soluciona las complejidades de los cálculos de medición de una red eléctrica, el integrado de medición seleccionado fue el denominado ADE7953, cuyo fabricante es Analog Devices. El ADE7953 es un circuito integrado de medición de energía eléctrica de alta precisión, con el propósito de aplicaciones monofásicas. Mide tensión y corriente de línea y calcula energía activa, reactiva y aparente. El dispositivo incorpora tres ADC sigma-delta con un núcleo de medición de energía de alta precisión. El integrado ADE7953 es un SOC (\textit{System On Chip}) que adapta un AFE (Analog Front-End), el ADE7953 facilita el uso del AFE al adaptar la electrónica analógica a una interfaz de electrónica digital, integra el control de la taza de muestreo del ADC, almacena datos en registros lógicos y provee una interfaz de comunicación.
+Para la realización de este trabajo se decidió utilizar un chip que soluciona las complejidades de los cálculos de medición de una red eléctrica, el integrado de medición seleccionado fue el denominado ADE7953, cuyo fabricante es Analog Devices. El ADE7953 es un SOC (\textit{System On Chip}) de medición de energía eléctrica de alta precisión, con el propósito de aplicaciones monofásicas. Mide tensión y corriente de línea y calcula energía activa, reactiva y aparente. El dispositivo incorpora tres ADC sigma-delta con un núcleo de medición de energía de alta precisión. 
+
+La estructura del ADE7953 adapta un AFE (analog front end) a una interfaz digital, de manera que los valores que mide el circuito integrado sean fácilmente accesibles en forma de registros de datos, los cuales se pueden acceder por protocolos de comunicación comunes como UART, I2C o SPI.
 %citar datasheet ADE7953
 
 %Explicar que es lo que facilita
 %%%
 
-Un AFE (\textit{Analog Front End}) es un conjunto de circuitos que acondicionan señales usando amplificadores analógicos sensibles, comúnmente amplificadores operacionales, filtros y circuitos integrados para aplicaciones específicas. De esta manera un AFE provee un bloque electrónico funcional, flexible y configurable, que es necesario para ser interfaz de una variedad de sensores, conversores digitales o microcontroladores.
+Un AFE (\textit{Analog Front End}) es un conjunto de circuitos que acondicionan señales usando amplificadores analógicos sensibles \cite{horlin2008digital}, comúnmente amplificadores operacionales, filtros y circuitos integrados para aplicaciones específicas. De esta manera un AFE provee un bloque electrónico funcional, flexible y configurable, que es necesario para ser interfaz de una variedad de sensores, conversores digitales o microcontroladores.
 
-En el campo de las mediciones eléctricas, los chips AFE son circuitos integrados resultados de una combinación de circuitos analógicos con digitales. Estos suelen ser implementaciones de DAC, tensiones de referencia tipo bandgap, módulos de manejo de potencia, módulos de control, cálculos de medición o conversores de pulsos de energía.
+En el campo de las mediciones eléctricas, los chips AFE son circuitos integrados resultados de una combinación de circuitos analógicos con digitales. Estos suelen ser implementaciones de DAC, tensiones de referencia tipo bandgap, módulos de manejo de potencia, módulos de control, cálculos de medición o conversores de pulsos de energía, por lo que se puede seleccionar un AFE para una aplicación especifica.
 %(para sensores, receptores de radio y otros circuitos)
 %%citar Vol
 
 %De acuerdo con la \textit{Virtual Socket Interface Aliance}, un \textit{System On Chip} se define como un dispositivo altamente integrado. Es también conocido como un sistema en silicio.
 
-System on chip puede ser definido como un circuito integrado complejo que consiste en uno o más núcleos programables, conectados usando un bus en chip con núcleo de procesamiento de señales (digitales o analógicas), y que pueden incorporar memoria en chip \cite{badawy2002system}. 
+%System on chip puede ser definido como un circuito integrado complejo que consiste en uno o más núcleos programables, conectados usando un bus en chip con núcleo de procesamiento de señales (digitales o analógicas), y que pueden incorporar memoria en chip \cite{badawy2002system}. 
 
 El ADE7953 es un system on chip que posee registros de memoria para facilitar el uso de los datos resultados de las mediciones. Su diagrama funcional puede verse en la figura \ref{fig:ADEfuncbloc}.
 
@@ -199,8 +201,9 @@ El ADE7953 es un system on chip que posee registros de memoria para facilitar el
 	\label{fig:ADEfuncbloc}
 \end{figure}
 
+Del diagrama puede verse los puertos de entrada para la medición, que son IAP, IAN, VP, VN, IBP, IBN, que sirven para realizar una medición monofásica con corriente de neutro, también se observan los diferentes bloques por los cuales la señales se procesan y los registros relacionados, por ejemplo, puede observarse como el registro de ganancia de tensión (VGAIN) y corriente eléctrica (AIGAN) interactúan con la salida del ADC.
 
-El integrado puede comunicarse con el microcontrolador por tres diferentes protocolos: I2C, SPI y UART, para esto deben realizarse las conexiones necesarias. Estos modos de comunicación facilitan la lectura de los datos de los registros. El chip utiliza diferentes protocolos, según se configure la lógica de los pines. Para el modo UART puede verse la configuración en la figura \ref{fig:UARTADE7953}.
+El ADE7953 puede comunicarse con un microcontrolador por tres diferentes protocolos: I2C, SPI y UART, para esto deben realizarse las conexiones necesarias. Estos modos de comunicación facilitan la lectura de los datos de los registros. El circuito integrado utiliza diferentes protocolos, según se configure la lógica de los pines. En el modo UART, se puede acceder a todas las funciones del circuito integrado usando solo dos pines de dirección única, donde el ADE7953 actúa como esclavo, toda comunicación se inicia cuando el master envía el frame valido. El formato del frame puede verse en la figura \ref{fig:UARTADE7953}.
 
 \begin{figure}[h]
 	\centering
@@ -222,18 +225,14 @@ El integrado puede comunicarse con el microcontrolador por tres diferentes proto
 
 %\subsection{Uso de mayúscula inicial para los título de secciones}
 
-\section{ Biblioteca Externa - Free Modbus}
+\section{ Biblioteca Externa - Freemodbus}
 \label{sec:cap2parte6}
 
 Como el dispositivo a utilizar es pensado para un ambiente industrial, se implementó un protocolo Modbus para la comunicación de este con otros dispositivos, ya que Modbus es sofwtare libre de fácil de implementación.
 
 El protocolo de comunicaciones serial Modbus, es un estándar de facto en la industria, diseñado para integrar PLC, computadoras, terminales, sensores y actuadores. Modbus es un sistema maestro/esclavo, donde un dispositivo, el nodo maestro, controla todas las actividades seriales encuestando selectivamente a los dispositivos esclavos. Modbus soporta un maestro y hasta 247 dispositivos esclavos. A cada dispositivo se le asigna una única dirección de nodo \cite{drury2001control}.
 
-Para implementar el protocolo dentro del dispositivo del trabajo, se reescribió una biblioteca libre llamada \textquotedblleft Freemodbus\textquotedblright , escrita por el Dr. techn. Christian Walter \cite{freegithubb}, que permite la implementación en lenguaje C del protocolo Modbus en diferentes microcontroladores. Se utilizó la biblioteca para desarrollar el código del protocolo del dispositivo, y las implementaciones RTU/ASCII para un dispositivo esclavo.
-
-
-
-
+Para implementar el protocolo dentro del dispositivo del trabajo, se reescribió una biblioteca libre llamada \textquotedblleft Freemodbus\textquotedblright , escrita por el Dr. techn. Christian Walter \cite{freegithubb}, que permite la implementación en lenguaje C del protocolo Modbus en diferentes microcontroladores. Se utilizó la biblioteca Freemodbus para desarrollar el código del protocolo del dispositivo, y las implementaciones RTU/ASCII para un dispositivo esclavo.
 
 %https://github.com/cwalter-at/freemodbus
 %https://www.embedded-solutions.at/

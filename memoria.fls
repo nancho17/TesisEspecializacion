@@ -240,12 +240,6 @@ INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter2.aux
 INPUT Chapters\Chapter2.aux
-INPUT Chapters\Chapter3.aux
-INPUT Chapters\Chapter3.aux
-INPUT Chapters\Chapter4.aux
-INPUT Chapters\Chapter4.aux
-INPUT Chapters\Chapter5.aux
-INPUT Chapters\Chapter5.aux
 OUTPUT memoria.aux
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
@@ -353,6 +347,7 @@ INPUT memoria.toc
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbc8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8t.tfm
+OUTPUT memoria.toc
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
@@ -361,13 +356,12 @@ INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\p
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplri8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
-OUTPUT memoria.toc
 INPUT memoria.lof
 INPUT memoria.lof
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+OUTPUT memoria.lof
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
-OUTPUT memoria.lof
 INPUT memoria.lot
 INPUT memoria.lot
 OUTPUT memoria.lot
@@ -456,19 +450,22 @@ INPUT .\Figures\microdatasheet1.png
 INPUT .\Figures\microdatasheet1.png
 INPUT .\Figures\microdatasheet1.png
 INPUT .\Figures\microdatasheet1.png
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8t.tfm
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8t.tfm
 INPUT Figures\emeesepeFET.jpg
 INPUT .\Figures\emeesepeFET.jpg
 INPUT .\Figures\emeesepeFET.jpg
 INPUT .\Figures\emeesepeFET.jpg
 INPUT .\Figures\emeesepeFET.jpg
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplbi8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8r.tfm
 INPUT Figures\Jtagfetsch.png
 INPUT .\Figures\Jtagfetsch.png
 INPUT .\Figures\Jtagfetsch.png
 INPUT .\Figures\Jtagfetsch.png
 INPUT .\Figures\Jtagfetsch.png
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplri8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplbi8t.vf
+INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8r.tfm
 INPUT Figures\Embeddedworkbench.png
 INPUT .\Figures\Embeddedworkbench.png
 INPUT .\Figures\Embeddedworkbench.png
@@ -484,194 +481,11 @@ INPUT .\Figures\tramauartade.png
 INPUT .\Figures\tramauartade.png
 INPUT .\Figures\tramauartade.png
 INPUT .\Figures\tramauartade.png
-OUTPUT Chapters\Chapter3.aux
-INPUT Chapters\Chapter3.tex
-INPUT Chapters\Chapter3.tex
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8t.tfm
-INPUT Figures\Placa1v6.png
-INPUT .\Figures\Placa1v6.png
-INPUT .\Figures\Placa1v6.png
-INPUT .\Figures\Placa1v6.png
-INPUT .\Figures\Placa1v6.png
-INPUT Figures\esquema22.png
-INPUT .\Figures\esquema22.png
-INPUT .\Figures\esquema22.png
-INPUT .\Figures\esquema22.png
-INPUT .\Figures\esquema22.png
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplbi8t.vf
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplbi8r.tfm
-INPUT Figures\alimentacion1.png
-INPUT .\Figures\alimentacion1.png
-INPUT .\Figures\alimentacion1.png
-INPUT .\Figures\alimentacion1.png
-INPUT .\Figures\alimentacion1.png
-INPUT Figures\alimentacion2.png
-INPUT .\Figures\alimentacion2.png
-INPUT .\Figures\alimentacion2.png
-INPUT .\Figures\alimentacion2.png
-INPUT .\Figures\alimentacion2.png
-INPUT Figures\comaislado1.png
-INPUT .\Figures\comaislado1.png
-INPUT .\Figures\comaislado1.png
-INPUT .\Figures\comaislado1.png
-INPUT .\Figures\comaislado1.png
-INPUT Figures\JTAG1.png
-INPUT .\Figures\JTAG1.png
-INPUT .\Figures\JTAG1.png
-INPUT .\Figures\JTAG1.png
-INPUT .\Figures\JTAG1.png
-INPUT Figures\RSS232_1.png
-INPUT .\Figures\RSS232_1.png
-INPUT .\Figures\RSS232_1.png
-INPUT .\Figures\RSS232_1.png
-INPUT .\Figures\RSS232_1.png
-INPUT Figures\RSS485_1.png
-INPUT .\Figures\RSS485_1.png
-INPUT .\Figures\RSS485_1.png
-INPUT .\Figures\RSS485_1.png
-INPUT .\Figures\RSS485_1.png
-INPUT Figures\rele1.png
-INPUT .\Figures\rele1.png
-INPUT .\Figures\rele1.png
-INPUT .\Figures\rele1.png
-INPUT .\Figures\rele1.png
-INPUT Figures\salida420.png
-INPUT .\Figures\salida420.png
-INPUT .\Figures\salida420.png
-INPUT .\Figures\salida420.png
-INPUT .\Figures\salida420.png
-INPUT Figures\ade7953.png
-INPUT .\Figures\ade7953.png
-INPUT .\Figures\ade7953.png
-INPUT .\Figures\ade7953.png
-INPUT .\Figures\ade7953.png
-INPUT Figures\medicionvoltaje.png
-INPUT .\Figures\medicionvoltaje.png
-INPUT .\Figures\medicionvoltaje.png
-INPUT .\Figures\medicionvoltaje.png
-INPUT .\Figures\medicionvoltaje.png
-INPUT Figures\medicioncorriente.png
-INPUT .\Figures\medicioncorriente.png
-INPUT .\Figures\medicioncorriente.png
-INPUT .\Figures\medicioncorriente.png
-INPUT .\Figures\medicioncorriente.png
-INPUT Figures\conectores2.png
-INPUT .\Figures\conectores2.png
-INPUT .\Figures\conectores2.png
-INPUT .\Figures\conectores2.png
-INPUT .\Figures\conectores2.png
-INPUT Figures\estandaresmayer.png
-INPUT .\Figures\estandaresmayer.png
-INPUT .\Figures\estandaresmayer.png
-INPUT .\Figures\estandaresmayer.png
-INPUT .\Figures\estandaresmayer.png
-INPUT Figures\PCBfront.png
-INPUT .\Figures\PCBfront.png
-INPUT .\Figures\PCBfront.png
-INPUT .\Figures\PCBfront.png
-INPUT .\Figures\PCBfront.png
-INPUT Figures\PCBback.png
-INPUT .\Figures\PCBback.png
-INPUT .\Figures\PCBback.png
-INPUT .\Figures\PCBback.png
-INPUT .\Figures\PCBback.png
-INPUT Figures\placaarmada1.jpeg
-INPUT .\Figures\placaarmada1.jpeg
-INPUT .\Figures\placaarmada1.jpeg
-INPUT .\Figures\placaarmada1.jpeg
-INPUT .\Figures\placaarmada1.jpeg
-INPUT Figures\parche2.jpg
-INPUT .\Figures\parche2.jpg
-INPUT .\Figures\parche2.jpg
-INPUT .\Figures\parche2.jpg
-INPUT .\Figures\parche2.jpg
-INPUT Figures\protofinal.jpeg
-INPUT .\Figures\protofinal.jpeg
-INPUT .\Figures\protofinal.jpeg
-INPUT .\Figures\protofinal.jpeg
-INPUT .\Figures\protofinal.jpeg
-INPUT Figures\Diagramadeprograma.jpeg
-INPUT .\Figures\Diagramadeprograma.jpeg
-INPUT .\Figures\Diagramadeprograma.jpeg
-INPUT .\Figures\Diagramadeprograma.jpeg
-INPUT .\Figures\Diagramadeprograma.jpeg
-INPUT Figures\ade7uartread.png
-INPUT .\Figures\ade7uartread.png
-INPUT .\Figures\ade7uartread.png
-INPUT .\Figures\ade7uartread.png
-INPUT .\Figures\ade7uartread.png
-INPUT Figures\ade7uartwrite.png
-INPUT .\Figures\ade7uartwrite.png
-INPUT .\Figures\ade7uartwrite.png
-INPUT .\Figures\ade7uartwrite.png
-INPUT .\Figures\ade7uartwrite.png
-INPUT Figures\MenuUsuario1.png
-INPUT .\Figures\MenuUsuario1.png
-INPUT .\Figures\MenuUsuario1.png
-INPUT .\Figures\MenuUsuario1.png
-INPUT .\Figures\MenuUsuario1.png
-INPUT Figures\MenuCalib1.png
-INPUT .\Figures\MenuCalib1.png
-INPUT .\Figures\MenuCalib1.png
-INPUT .\Figures\MenuCalib1.png
-INPUT .\Figures\MenuCalib1.png
-OUTPUT Chapters\Chapter4.aux
-INPUT Chapters\Chapter4.tex
-INPUT Chapters\Chapter4.tex
-INPUT Figures\osciloscope.jpg
-INPUT .\Figures\osciloscope.jpg
-INPUT .\Figures\osciloscope.jpg
-INPUT .\Figures\osciloscope.jpg
-INPUT .\Figures\osciloscope.jpg
-INPUT Figures\ADEresponse.jpg
-INPUT .\Figures\ADEresponse.jpg
-INPUT .\Figures\ADEresponse.jpg
-INPUT .\Figures\ADEresponse.jpg
-INPUT .\Figures\ADEresponse.jpg
-INPUT Figures\ModbusTest.jpg
-INPUT .\Figures\ModbusTest.jpg
-INPUT .\Figures\ModbusTest.jpg
-INPUT .\Figures\ModbusTest.jpg
-INPUT .\Figures\ModbusTest.jpg
-INPUT Figures\BancoCalib.jpg
-INPUT .\Figures\BancoCalib.jpg
-INPUT .\Figures\BancoCalib.jpg
-INPUT .\Figures\BancoCalib.jpg
-INPUT .\Figures\BancoCalib.jpg
-INPUT Figures\HojadeAplicacion.png
-INPUT .\Figures\HojadeAplicacion.png
-INPUT .\Figures\HojadeAplicacion.png
-INPUT .\Figures\HojadeAplicacion.png
-INPUT .\Figures\HojadeAplicacion.png
-INPUT Figures\ConectorAlim.jpeg
-INPUT .\Figures\ConectorAlim.jpeg
-INPUT .\Figures\ConectorAlim.jpeg
-INPUT .\Figures\ConectorAlim.jpeg
-INPUT .\Figures\ConectorAlim.jpeg
-INPUT Figures\ConRS232.jpeg
-INPUT .\Figures\ConRS232.jpeg
-INPUT .\Figures\ConRS232.jpeg
-INPUT .\Figures\ConRS232.jpeg
-INPUT .\Figures\ConRS232.jpeg
-INPUT Figures\polyswitchyrele.jpg
-INPUT .\Figures\polyswitchyrele.jpg
-INPUT .\Figures\polyswitchyrele.jpg
-INPUT .\Figures\polyswitchyrele.jpg
-INPUT .\Figures\polyswitchyrele.jpg
-OUTPUT Chapters\Chapter5.aux
-INPUT Chapters\Chapter5.tex
-INPUT Chapters\Chapter5.tex
 INPUT memoria.aux
 INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter1.aux
 INPUT Chapters\Chapter2.aux
 INPUT Chapters\Chapter2.aux
-INPUT Chapters\Chapter3.aux
-INPUT Chapters\Chapter3.aux
-INPUT Chapters\Chapter4.aux
-INPUT Chapters\Chapter4.aux
-INPUT Chapters\Chapter5.aux
-INPUT Chapters\Chapter5.aux
 INPUT .\memoria.out
 INPUT .\memoria.out
 INPUT memoria.run.xml
@@ -679,8 +493,6 @@ OUTPUT memoria.run.xml
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\herda\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb

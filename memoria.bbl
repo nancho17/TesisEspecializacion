@@ -211,6 +211,20 @@
     \field{year}{2018}
   \endentry
 
+  \entry{FETjtag}{manual}{}
+    \list{organization}{1}{%
+      {Texas Instrument}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{SLAU647O}
+    \field{number}{Revised April 2020}
+    \field{title}{MSP Debuggers}
+    \verb{url}
+    \verb https://www.ti.com/lit/ug/slau647o/slau647o.pdf
+    \endverb
+    \field{year}{July 2015}
+  \endentry
+
   \entry{JTAGintel}{manual}{}
     \name{author}{1}{}{%
       {{hash=RJSC}{%
@@ -250,36 +264,35 @@
     \field{year}{2015}
   \endentry
 
-  \entry{badawy2002system}{book}{}
+  \entry{horlin2008digital}{book}{}
     \name{author}{2}{}{%
-      {{hash=BW}{%
-         family={Badawy},
-         familyi={B\bibinitperiod},
-         given={W.},
-         giveni={W\bibinitperiod},
+      {{hash=HP}{%
+         family={Horlin},
+         familyi={H\bibinitperiod},
+         given={P.F.},
+         giveni={P\bibinitperiod},
       }}%
-      {{hash=JG}{%
-         family={Julien},
-         familyi={J\bibinitperiod},
-         given={G.A.},
-         giveni={G\bibinitperiod},
+      {{hash=BP}{%
+         family={Bourdoux},
+         familyi={B\bibinitperiod},
+         given={P.A.},
+         giveni={P\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Springer US}%
+      {Wiley}%
     }
-    \strng{namehash}{BWJG1}
-    \strng{fullhash}{BWJG1}
+    \strng{namehash}{HPBP1}
+    \strng{fullhash}{HPBP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{isbn}{9781402072543}
-    \field{series}{The Springer International Series in Engineering and
-  Computer Science}
-    \field{title}{System-on-Chip for Real-Time Applications}
+    \field{isbn}{9780470759035}
+    \field{title}{Digital Compensation for Analog Front-Ends: A New Approach to
+  Wireless Transceiver Design}
     \verb{url}
-    \verb https://books.google.com.ar/books?id=Ha76NqrqPVIC
+    \verb https://books.google.com.ar/books?id=0lC9JS5yxEsC
     \endverb
-    \field{year}{2002}
+    \field{year}{2008}
   \endentry
 
   \entry{drury2001control}{book}{}
