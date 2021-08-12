@@ -25,7 +25,7 @@ En el presente capítulo se describe el microcontrolador que se eligió para el 
 
 El trabajo realizado implicó el desarrollo de un producto electrónico que debe efectuar diferentes tareas, como medir, comunicar y en algunos casos accionar. Uno de los elementos que hace posible el funcionamiento del sistema es el microcontrolador, que es el encargado de realizar las diferentes tareas que el dispositivo debe llevar a cabo. 
 
-Para este trabajo se optó por un microcontrolador que pueda ser usado para una aplicación de medición y que sea de bajo consumo eléctrico. 
+Para este trabajo se optó por un microcontrolador que pueda ser usado para una aplicación de medición y que sea de bajo consumo eléctrico.
 
 %Como toda aplicación de un sistema embebido, la electrónica diseñada suele ser mas una extension del microcontrolador, adaptado analógicamente para que realice las tareas que se desea resolver, que una parte más de la electrónica.
 
@@ -144,11 +144,12 @@ Para el trabajo realizado, la empresa SERVAIND S.A. proveyó la herramienta MSP-
 
 
 \subsection{Entorno de desarrollo}
-\subsubsection{ El MSP Debug Stack}
+\subsubsection{ MSP Debug Stack}
 
 Para poder programar el microcontrolador, el fabricante ofrece una solución de software denominada \textquotedblleft MSPDS\textquotedblright \ que significa \textit{MSP Debug stack}. El \textit{MSP Debug stack} es una biblioteca dinámica que provee funciones para controlar y depurar microcontroladores de la familia MSP40 durante la fase de desarrollo de software. El \textit{MSP Debug stack} controla al MSP430 a través de la interfaz JTAG. La biblioteca provee control de dispositivo, programación de memoria y funcionalidad de depuración, por ejemplo \textit{breakpoints} \cite{GuideMSPStack}.
 
-Esta biblioteca simplifica el controlar el MSP430 aislando al usuario de las complejidades del protocolo JTAG. Además, la biblioteca puede conectarse a un MSP430 objetivo sin parar o cambiar la ejecución del programa.
+Esta biblioteca simplifica el controlar el MSP430 al evitar que el usuario tenga que lidiar con las complejidades del protocolo JTAG. Además, la biblioteca puede conectarse a un MSP430 objetivo sin parar o cambiar la ejecución del programa.
+
 
 %El MSPDebugStack
 El \textquotedblleft stack debug de MSP\textquotedblright \ es diseñado para los microcontroladores de la familia MSP430. Consiste en una biblioteca estática en el lado del host (donde se realizan los programas) y de un firmware embebido que corre herramientas de depuración para el MSP-FET \cite{GuideMSPStack}.
@@ -157,7 +158,7 @@ El \textquotedblleft stack debug de MSP\textquotedblright \ es diseñado para lo
 
 %If you intend to program your MSP430 or MSP432 device out of an IDE, simply download the latest version of Code Composer Studio or IAR Embedded Workbench release. The latest MSP Debug Stack will be inclu
 
-Para realizar el programa en lenguaje C, el fabricante del microcontrolador recomienda al IDE (Entorno de Desarrollo Integrado) \textquotedblleft IAR Embedded Workbench\textquotedblright , ya que este software incluye al  MSP Debug Stack, por lo que no hay que escribir archivos \textit{ make file} o hacer una compilación manual ya que esto lo soluciona el entorno.
+Para realizar el programa en lenguaje C el fabricante del microcontrolador recomienda al IDE (Entorno de Desarrollo Integrado) \textquotedblleft IAR Embedded Workbench\textquotedblright \cite{iarembddworkbnch} , ya que este software incluye al  MSP Debug Stack, por lo que no hay que escribir archivos \textit{make file} o hacer una compilación manual ya que esto lo soluciona el entorno.
 
 Para el trabajo realizado la empresa SERVAIND S.A. proveyó una versión del IDE IAR, con el fin de acelerar el proceso de desarrollo del software. Una ventana del entorno de desarrollo puede verse en la figura \ref{fig:IARwindow}.
 
@@ -174,7 +175,7 @@ Para el trabajo realizado la empresa SERVAIND S.A. proveyó una versión del IDE
 \section{Circuito integrado de medición}
 \label{sec:cap2parte3}
 
-Para la realización de este trabajo se decidió utilizar un chip que soluciona las complejidades de los cálculos de medición de una red eléctrica, el integrado de medición seleccionado fue el denominado ADE7953, cuyo fabricante es Analog Devices. El ADE7953 es un circuito integrado de medición de energía eléctrica de alta precisión, con el propósito de aplicaciones monofásicas. Mide tensión y corriente de línea y calcula energía activa, reactiva y aparente. El dispositivo incorpora tres ADC sigma-delta con un núcleo de medición de energía de alta precisión. El integrado ADE7953 es un SOC (\textit{System On Chip}) que adapta un AFE (Analog Front-End), el ADE7953 facilita el uso del AFE al adaptar la electrónica analógica a una interfaz de electrónica digital, integra el control de la taza de muestreo del ADC, almacena datos en registros lógicos y provee una interfaz de comunicación.
+Para la realización de este trabajo se decidió utilizar un circuito integrado que soluciona las complejidades de los cálculos de medición de una red eléctrica, el integrado de medición seleccionado fue el denominado ADE7953, cuyo fabricante es Analog Devices. El ADE7953 es un circuito integrado de medición de energía eléctrica de alta precisión, con el propósito de aplicaciones monofásicas. Mide tensión y corriente de línea y calcula energía activa, reactiva y aparente. El dispositivo incorpora tres ADC sigma-delta con un núcleo de medición de energía de alta precisión. El integrado ADE7953 es un SOC (\textit{System On Chip}) que adapta un AFE (Analog Front-End), el ADE7953 facilita el uso del AFE al adaptar la electrónica analógica a una interfaz de electrónica digital, integra el control de la taza de muestreo del ADC, almacena datos en registros lógicos y provee una interfaz de comunicación.
 %citar datasheet ADE7953
 
 %Explicar que es lo que facilita
